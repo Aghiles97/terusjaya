@@ -1,0 +1,17 @@
+# OS files
+.DS_Store
+._*
+Thumbs.db
+
+# Environment & local tools
+graphify-out/
+
+# CI / Modesy dynamic runtime files
+writable/cache/*
+!writable/cache/index.html
+writable/session/*
+!writable/session/index.html
+writable/logs/*
+!writable/logs/index.html
+writable/debugbar/*
+!writable/debugbar/index.html

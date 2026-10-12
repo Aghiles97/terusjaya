@@ -1,0 +1,6423 @@
+{
+    "language": {
+        "name": "Indonesian",
+        "short_form": "id",
+        "language_code": "id-ID",
+        "text_direction": "ltr",
+        "text_editor_lang": "id"
+    },
+    "translations": [
+        {
+            "label": "abuse_report_exp",
+            "translation": "Jelaskan secara singkat masalah yang Anda hadapi"
+        },
+        {
+            "label": "abuse_report_msg",
+            "translation": "Laporan Anda telah sampai kepada kami. Terima kasih!"
+        },
+        {
+            "label": "abuse_reports",
+            "translation": "Laporan Penyalahgunaan"
+        },
+        {
+            "label": "accept_cookies",
+            "translation": "Terima Cookie"
+        },
+        {
+            "label": "accept_quote",
+            "translation": "Terima Penawaran"
+        },
+        {
+            "label": "access_key",
+            "translation": "Kunci Akses"
+        },
+        {
+            "label": "account_deletion_requests",
+            "translation": "Permintaan Penghapusan Akun"
+        },
+        {
+            "label": "activate_all",
+            "translation": "Aktifkan Semua"
+        },
+        {
+            "label": "activate_selected",
+            "translation": "Aktifkan yang Dipilih"
+        },
+        {
+            "label": "activation_email_sent",
+            "translation": "Email aktivasi telah dikirim!"
+        },
+        {
+            "label": "active",
+            "translation": "Aktif"
+        },
+        {
+            "label": "active_orders",
+            "translation": "Pesanan Aktif"
+        },
+        {
+            "label": "active_payment_request_error",
+            "translation": "Anda sudah memiliki permintaan pembayaran aktif! Setelah ini selesai, Anda dapat membuat permintaan baru."
+        },
+        {
+            "label": "active_provider",
+            "translation": "Penyedia Aktif"
+        },
+        {
+            "label": "active_sales",
+            "translation": "Penjualan Aktif"
+        },
+        {
+            "label": "active_storage",
+            "translation": "Penyimpanan Aktif"
+        },
+        {
+            "label": "ad_size",
+            "translation": "Ukuran Iklan"
+        },
+        {
+            "label": "ad_spaces",
+            "translation": "Ruang Iklan"
+        },
+        {
+            "label": "add_administrator",
+            "translation": "Tambahkan Administrator"
+        },
+        {
+            "label": "add_banner",
+            "translation": "Tambahkan Spanduk"
+        },
+        {
+            "label": "add_brand",
+            "translation": "Tambahkan Merek"
+        },
+        {
+            "label": "add_category",
+            "translation": "Tambahkan Kategori"
+        },
+        {
+            "label": "add_city",
+            "translation": "Tambahkan Kota"
+        },
+        {
+            "label": "add_comment",
+            "translation": "Tambahkan Komentar"
+        },
+        {
+            "label": "add_content",
+            "translation": "Tambahkan Konten"
+        },
+        {
+            "label": "add_country",
+            "translation": "Tambahkan Negara"
+        },
+        {
+            "label": "add_coupon",
+            "translation": "Tambahkan Kupon"
+        },
+        {
+            "label": "add_currency",
+            "translation": "Tambahkan Mata Uang"
+        },
+        {
+            "label": "add_custom_field",
+            "translation": "Tambahkan Bidang Kustom"
+        },
+        {
+            "label": "add_delivery_time",
+            "translation": "Tambahkan Waktu Pengiriman"
+        },
+        {
+            "label": "add_email",
+            "translation": "Tambahkan Surel"
+        },
+        {
+            "label": "add_external_download_link",
+            "translation": "Tambahkan Tautan Unduhan Eksternal"
+        },
+        {
+            "label": "add_feature",
+            "translation": "Tambahkan Fitur"
+        },
+        {
+            "label": "add_font",
+            "translation": "Tambahkan Font"
+        },
+        {
+            "label": "add_funds",
+            "translation": "Tambahkan Dana"
+        },
+        {
+            "label": "add_funds_pay_debt",
+            "translation": "Tambahkan dana ke dompet Anda untuk membayar hutang Anda. Hutang akan otomatis terpotong."
+        },
+        {
+            "label": "add_image",
+            "translation": "Tambahkan Gambar"
+        },
+        {
+            "label": "add_language",
+            "translation": "Tambahkan Bahasa"
+        },
+        {
+            "label": "add_license_keys",
+            "translation": "Tambahkan Kunci Lisensi"
+        },
+        {
+            "label": "add_license_keys_exp",
+            "translation": "Tambahkan semua kunci lisensi dengan pemisah koma(,). (yaitu Kunci Lisensi, Kunci Lisensi...)"
+        },
+        {
+            "label": "add_new_address",
+            "translation": "Tambahkan Alamat Baru"
+        },
+        {
+            "label": "add_option",
+            "translation": "Tambahkan Opsi"
+        },
+        {
+            "label": "add_page",
+            "translation": "Tambahkan Halaman"
+        },
+        {
+            "label": "add_payout",
+            "translation": "Tambahkan Pembayaran"
+        },
+        {
+            "label": "add_post",
+            "translation": "Tambahkan Posting"
+        },
+        {
+            "label": "add_product",
+            "translation": "Tambahkan Produk"
+        },
+        {
+            "label": "add_product_for_sale",
+            "translation": "Tambahkan Produk untuk Dijual"
+        },
+        {
+            "label": "add_product_for_sale_exp",
+            "translation": "Tambahkan produk untuk dijual di situs"
+        },
+        {
+            "label": "add_product_get_price_requests",
+            "translation": "Tambahkan Produk untuk Menerima Permintaan Penawaran (Harga)."
+        },
+        {
+            "label": "add_product_get_price_requests_exp",
+            "translation": "Tambahkan produk tanpa menambahkan harga untuk mendapatkan permintaan harga dari pelanggan"
+        },
+        {
+            "label": "add_product_option",
+            "translation": "Tambahkan Opsi Produk"
+        },
+        {
+            "label": "add_product_sell_license_keys",
+            "translation": "Tambahkan Produk untuk Menjual Kunci Lisensi"
+        },
+        {
+            "label": "add_product_sell_license_keys_exp",
+            "translation": "Tambahkan produk untuk hanya menjual kunci lisensi"
+        },
+        {
+            "label": "add_product_services_listing",
+            "translation": "Tambahkan Produk atau Layanan sebagai Daftar Biasa"
+        },
+        {
+            "label": "add_product_services_listing_exp",
+            "translation": "Tambahkan produk atau layanan tanpa opsi beli"
+        },
+        {
+            "label": "add_products",
+            "translation": "Tambahkan Produk"
+        },
+        {
+            "label": "add_question",
+            "translation": "Tambahkan Pertanyaan"
+        },
+        {
+            "label": "add_rate",
+            "translation": "Tambahkan Tarif"
+        },
+        {
+            "label": "add_review",
+            "translation": "Tambahkan Ulasan"
+        },
+        {
+            "label": "add_role",
+            "translation": "Tambahkan Peran"
+        },
+        {
+            "label": "add_shipping_method",
+            "translation": "Tambahkan Metode Pengiriman"
+        },
+        {
+            "label": "add_shipping_option",
+            "translation": "Tambahkan Opsi Pengiriman"
+        },
+        {
+            "label": "add_shipping_zone",
+            "translation": "Tambahkan Zona Pengiriman"
+        },
+        {
+            "label": "add_slider_item",
+            "translation": "Tambahkan Item Penggeser"
+        },
+        {
+            "label": "add_space_between_money_currency",
+            "translation": "Tambahkan Ruang Antara Uang dan Mata Uang"
+        },
+        {
+            "label": "add_state",
+            "translation": "Tambahkan Negara Bagian"
+        },
+        {
+            "label": "add_tag",
+            "translation": "Tambahkan Tanda"
+        },
+        {
+            "label": "add_tax",
+            "translation": "Tambahkan Pajak"
+        },
+        {
+            "label": "add_to_affiliate_program",
+            "translation": "Tambahkan ke Program Afiliasi"
+        },
+        {
+            "label": "add_to_blacklist",
+            "translation": "Tambahkan ke Daftar Hitam"
+        },
+        {
+            "label": "add_to_cart",
+            "translation": "Tambahkan ke Keranjang"
+        },
+        {
+            "label": "add_to_featured",
+            "translation": "Tambahkan ke Unggulan"
+        },
+        {
+            "label": "add_to_product_filters",
+            "translation": "Tambahkan ke Filter Produk"
+        },
+        {
+            "label": "add_to_special_offers",
+            "translation": "Tambahkan ke Penawaran Khusus"
+        },
+        {
+            "label": "add_to_wishlist",
+            "translation": "Tambahkan ke daftar keinginan"
+        },
+        {
+            "label": "add_user",
+            "translation": "Tambahkan Pengguna"
+        },
+        {
+            "label": "add_value",
+            "translation": "Tambahkan Nilai"
+        },
+        {
+            "label": "add_video",
+            "translation": "Tambahkan Video"
+        },
+        {
+            "label": "add_watermark_blog_images",
+            "translation": "Tambahkan Tanda Air ke Gambar Blog"
+        },
+        {
+            "label": "add_watermark_product_images",
+            "translation": "Tambahkan Tanda Air ke Gambar Produk"
+        },
+        {
+            "label": "add_watermark_thumbnail_images",
+            "translation": "Tambahkan Tanda Air ke Gambar Kecil (Kecil)."
+        },
+        {
+            "label": "added_to_cart",
+            "translation": "Ditambahkan ke Keranjang"
+        },
+        {
+            "label": "additional_information",
+            "translation": "Informasi Tambahan"
+        },
+        {
+            "label": "additional_invoice_information",
+            "translation": "Informasi Faktur Tambahan"
+        },
+        {
+            "label": "additional_invoice_information_exp",
+            "translation": "Nomor PPN, No Perusahaan, dll."
+        },
+        {
+            "label": "address",
+            "translation": "Alamat"
+        },
+        {
+            "label": "address_title",
+            "translation": "Judul Alamat"
+        },
+        {
+            "label": "address_type",
+            "translation": "Jenis Alamat"
+        },
+        {
+            "label": "admin_emails_will_send",
+            "translation": "Email admin akan dikirim ke alamat ini"
+        },
+        {
+            "label": "admin_panel",
+            "translation": "Panel Admin"
+        },
+        {
+            "label": "admin_panel_link",
+            "translation": "Tautan Panel Admin"
+        },
+        {
+            "label": "administrators",
+            "translation": "Administrator"
+        },
+        {
+            "label": "adsense_head_exp",
+            "translation": "Kode yang Anda tambahkan di sini akan ditambahkan di tag <head></head>."
+        },
+        {
+            "label": "affiliate",
+            "translation": "Afiliasi"
+        },
+        {
+            "label": "affiliate_link",
+            "translation": "Tautan Afiliasi"
+        },
+        {
+            "label": "affiliate_link_exp",
+            "translation": "Untuk memaksimalkan penghasilan afiliasi Anda, bagikan tautan ini di postingan blog, media sosial, dan kampanye email. Sertakan dalam deskripsi video YouTube, di situs web Anda, dan di forum online."
+        },
+        {
+            "label": "affiliate_links",
+            "translation": "Tautan Afiliasi"
+        },
+        {
+            "label": "affiliate_program",
+            "translation": "Program Afiliasi"
+        },
+        {
+            "label": "affiliate_program_vendor_exp",
+            "translation": "Program afiliasi memungkinkan Anda, sebagai penjual, membayar komisi kepada mitra eksternal untuk mempromosikan produk Anda dan mendorong penjualan melalui tautan unik mereka, membantu Anda menjangkau audiens yang lebih luas dan meningkatkan pendapatan. Saat Anda mengaktifkan sistem ini, akan ada opsi untuk membuat link afiliasi di halaman produk Anda. Semua pengguna dapat berpartisipasi dalam program ini dengan membuat tautan mereka sendiri untuk produk Anda."
+        },
+        {
+            "label": "affiliate_seller_based",
+            "translation": "Berbasis penjual (untuk produk yang dipilih oleh penjual, penjual membayar komisi)"
+        },
+        {
+            "label": "affiliate_site_based",
+            "translation": "Berbasis situs (untuk semua produk, situs membayar komisi)"
+        },
+        {
+            "label": "ai_content_generator",
+            "translation": "Pembuat Konten AI"
+        },
+        {
+            "label": "ai_writer",
+            "translation": "Penulis AI"
+        },
+        {
+            "label": "ai_writer_api_error",
+            "translation": "Pembuatan konten gagal. API tidak mengembalikan konten, mungkin karena kredit tidak mencukupi. Silakan periksa akun API Anda."
+        },
+        {
+            "label": "all",
+            "translation": "Semua"
+        },
+        {
+            "label": "all_active_currencies",
+            "translation": "Semua mata uang aktif"
+        },
+        {
+            "label": "all_categories",
+            "translation": "Semua Kategori"
+        },
+        {
+            "label": "all_countries",
+            "translation": "Semua Negara"
+        },
+        {
+            "label": "all_help_topics",
+            "translation": "Semua Topik Bantuan"
+        },
+        {
+            "label": "all_locations",
+            "translation": "Semua Lokasi"
+        },
+        {
+            "label": "all_permissions",
+            "translation": "Semua Izin"
+        },
+        {
+            "label": "all_sellers",
+            "translation": "Semua Penjual"
+        },
+        {
+            "label": "all_states",
+            "translation": "Semua negara bagian"
+        },
+        {
+            "label": "allow_all_currencies_classified_ads",
+            "translation": "Izinkan Semua Mata Uang untuk Daftar Biasa"
+        },
+        {
+            "label": "allow_duplicate_license_keys",
+            "translation": "Izinkan Kunci Lisensi Duplikat"
+        },
+        {
+            "label": "allow_free_plan_multiple_times",
+            "translation": "Izinkan Paket Gratis untuk Digunakan Beberapa Kali"
+        },
+        {
+            "label": "allow_vendors_change_shop_name",
+            "translation": "Izinkan Vendor Mengubah Nama Tokonya"
+        },
+        {
+            "label": "allowed_file_extensions",
+            "translation": "Ekstensi File yang Diizinkan"
+        },
+        {
+            "label": "alphabetically",
+            "translation": "Berdasarkan abjad"
+        },
+        {
+            "label": "already_have_active_request",
+            "translation": "Anda sudah memiliki permintaan aktif untuk produk ini!"
+        },
+        {
+            "label": "animations",
+            "translation": "Animasi"
+        },
+        {
+            "label": "answer",
+            "translation": "Jawaban"
+        },
+        {
+            "label": "api_key",
+            "translation": "Kunci Api"
+        },
+        {
+            "label": "app_id",
+            "translation": "ID Aplikasi"
+        },
+        {
+            "label": "app_name",
+            "translation": "Nama Aplikasi"
+        },
+        {
+            "label": "app_secret",
+            "translation": "Rahasia Aplikasi"
+        },
+        {
+            "label": "appear_on_homepage",
+            "translation": "Muncul di Beranda"
+        },
+        {
+            "label": "application_icon",
+            "translation": "Ikon Aplikasi"
+        },
+        {
+            "label": "application_icon_exp",
+            "translation": "Unggah gambar berukuran 512×512 piksel. Ini akan digunakan untuk menghasilkan ikon aplikasi, favicon, dan ikon PWA."
+        },
+        {
+            "label": "application_key",
+            "translation": "Kunci Aplikasi"
+        },
+        {
+            "label": "apply",
+            "translation": "Terapkan"
+        },
+        {
+            "label": "apply_for_product_sales",
+            "translation": "Terapkan untuk Penjualan Produk"
+        },
+        {
+            "label": "apply_for_service_payments",
+            "translation": "Terapkan untuk Pembayaran Layanan"
+        },
+        {
+            "label": "approve",
+            "translation": "Menyetujui"
+        },
+        {
+            "label": "approve_refund",
+            "translation": "Setujui Pengembalian Dana"
+        },
+        {
+            "label": "approved",
+            "translation": "Disetujui"
+        },
+        {
+            "label": "approved_comments",
+            "translation": "Komentar yang Disetujui"
+        },
+        {
+            "label": "april",
+            "translation": "April"
+        },
+        {
+            "label": "ask_question",
+            "translation": "Ajukan Pertanyaan"
+        },
+        {
+            "label": "assign_membership_plan",
+            "translation": "Tetapkan Paket Keanggotaan"
+        },
+        {
+            "label": "attachments",
+            "translation": "Lampiran"
+        },
+        {
+            "label": "audio",
+            "translation": "Audio"
+        },
+        {
+            "label": "audio_preview",
+            "translation": "Pratinjau Audio"
+        },
+        {
+            "label": "audio_preview_exp",
+            "translation": "Audio pratinjau MP3 atau WAV"
+        },
+        {
+            "label": "august",
+            "translation": "Agustus"
+        },
+        {
+            "label": "auto_approve_orders",
+            "translation": "Setujui Otomatis Pesanan yang Tidak Disetujui (setelah x hari)"
+        },
+        {
+            "label": "automatically_calculated",
+            "translation": "Dihitung Secara Otomatis"
+        },
+        {
+            "label": "automatically_update_exchange_rates",
+            "translation": "Perbarui Nilai Tukar Secara Otomatis"
+        },
+        {
+            "label": "awaiting_payment",
+            "translation": "Menunggu Pembayaran"
+        },
+        {
+            "label": "awaiting_sellers_bid",
+            "translation": "Menunggu Tawaran Penjual"
+        },
+        {
+            "label": "back",
+            "translation": "Kembali"
+        },
+        {
+            "label": "balance",
+            "translation": "Keseimbangan"
+        },
+        {
+            "label": "balance_exp",
+            "translation": "Penghasilan yang disetujui"
+        },
+        {
+            "label": "ban_user",
+            "translation": "Larangan Pengguna"
+        },
+        {
+            "label": "bank_account_holder_name",
+            "translation": "Nama Pemilik Rekening Bank"
+        },
+        {
+            "label": "bank_accounts",
+            "translation": "Rekening Bank"
+        },
+        {
+            "label": "bank_accounts_exp",
+            "translation": "Anda dapat melakukan pembayaran ke salah satu rekening bank ini."
+        },
+        {
+            "label": "bank_branch_city",
+            "translation": "Kota Cabang Bank"
+        },
+        {
+            "label": "bank_branch_country",
+            "translation": "Negara Cabang Bank"
+        },
+        {
+            "label": "bank_name",
+            "translation": "Nama Bank"
+        },
+        {
+            "label": "bank_transfer",
+            "translation": "Transfer Bank"
+        },
+        {
+            "label": "bank_transfer_accepted",
+            "translation": "Transfer bank diterima"
+        },
+        {
+            "label": "bank_transfer_declined",
+            "translation": "Transfer bank ditolak"
+        },
+        {
+            "label": "bank_transfer_exp",
+            "translation": "Lakukan pembayaran Anda langsung ke rekening bank kami."
+        },
+        {
+            "label": "bank_transfer_reports",
+            "translation": "Laporan Transfer Bank"
+        },
+        {
+            "label": "banned",
+            "translation": "Dilarang"
+        },
+        {
+            "label": "banner",
+            "translation": "Spanduk"
+        },
+        {
+            "label": "banner_desktop",
+            "translation": "Spanduk Desktop"
+        },
+        {
+            "label": "banner_desktop_exp",
+            "translation": "Iklan ini akan ditampilkan pada layar yang lebih besar dari 992 piksel"
+        },
+        {
+            "label": "banner_location_exp",
+            "translation": "Spanduk akan ditambahkan di bawah bagian yang dipilih"
+        },
+        {
+            "label": "banner_mobile",
+            "translation": "Spanduk Seluler"
+        },
+        {
+            "label": "banner_mobile_exp",
+            "translation": "Iklan ini akan ditampilkan pada layar yang lebih kecil dari 992 piksel"
+        },
+        {
+            "label": "banner_width",
+            "translation": "Lebar Spanduk"
+        },
+        {
+            "label": "base_currency",
+            "translation": "Mata Uang Dasar"
+        },
+        {
+            "label": "bidding_system",
+            "translation": "Sistem Penawaran"
+        },
+        {
+            "label": "bidding_system_emails",
+            "translation": "Email sistem penawaran"
+        },
+        {
+            "label": "bidding_system_request_quote",
+            "translation": "Sistem Penawaran (Permintaan Penawaran)"
+        },
+        {
+            "label": "billing_address",
+            "translation": "Alamat Penagihan"
+        },
+        {
+            "label": "bitcoin",
+            "translation": "Bitcoin (BTC)"
+        },
+        {
+            "label": "blog",
+            "translation": "blog"
+        },
+        {
+            "label": "blog_ad_space_1",
+            "translation": "Ruang Iklan Blog 1"
+        },
+        {
+            "label": "blog_ad_space_2",
+            "translation": "Ruang Iklan Blog 2"
+        },
+        {
+            "label": "blog_comments",
+            "translation": "Komentar Blog"
+        },
+        {
+            "label": "blog_posts",
+            "translation": "Postingan Blog"
+        },
+        {
+            "label": "blog_slider",
+            "translation": "Penggeser Blog"
+        },
+        {
+            "label": "bottom",
+            "translation": "Bawah"
+        },
+        {
+            "label": "boxed",
+            "translation": "kemas"
+        },
+        {
+            "label": "brand",
+            "translation": "Merek"
+        },
+        {
+            "label": "brands",
+            "translation": "Merek"
+        },
+        {
+            "label": "browse_files",
+            "translation": "Jelajahi File"
+        },
+        {
+            "label": "btc_address",
+            "translation": "Alamat BTC"
+        },
+        {
+            "label": "bucket_name",
+            "translation": "Nama Ember"
+        },
+        {
+            "label": "bulk_category_upload",
+            "translation": "Unggah Kategori Massal"
+        },
+        {
+            "label": "bulk_custom_field_upload",
+            "translation": "Unggah Bidang Kustom Massal"
+        },
+        {
+            "label": "bulk_product_upload",
+            "translation": "Unggah Produk Massal"
+        },
+        {
+            "label": "bulk_product_upload_exp",
+            "translation": "Anda dapat menambahkan produk Anda dengan file CSV dari bagian ini"
+        },
+        {
+            "label": "bulk_upload_documentation",
+            "translation": "Dokumentasi Unggah Massal"
+        },
+        {
+            "label": "button",
+            "translation": "Tombol"
+        },
+        {
+            "label": "button_color",
+            "translation": "Warna Tombol"
+        },
+        {
+            "label": "button_text",
+            "translation": "Teks Tombol"
+        },
+        {
+            "label": "button_text_color",
+            "translation": "Warna Teks Tombol"
+        },
+        {
+            "label": "buy_button_link",
+            "translation": "Tautan tombol beli"
+        },
+        {
+            "label": "buy_now",
+            "translation": "Beli Sekarang"
+        },
+        {
+            "label": "buyer",
+            "translation": "Pembeli"
+        },
+        {
+            "label": "buyer_discount_rate",
+            "translation": "Tingkat Diskon Pembeli"
+        },
+        {
+            "label": "by_category_order",
+            "translation": "berdasarkan Kategori Urutan"
+        },
+        {
+            "label": "by_date",
+            "translation": "berdasarkan Tanggal"
+        },
+        {
+            "label": "cache_refresh_time",
+            "translation": "Waktu Penyegaran Cache (Menit)"
+        },
+        {
+            "label": "cache_refresh_time_exp",
+            "translation": "Setelah itu, file cache Anda akan disegarkan."
+        },
+        {
+            "label": "cache_system",
+            "translation": "Sistem Tembolok"
+        },
+        {
+            "label": "calculated_weight",
+            "translation": "Berat Terhitung"
+        },
+        {
+            "label": "cancel",
+            "translation": "Batalkan"
+        },
+        {
+            "label": "cancel_order",
+            "translation": "Batalkan Pesanan"
+        },
+        {
+            "label": "cancelled",
+            "translation": "Dibatalkan"
+        },
+        {
+            "label": "cancelled_sales",
+            "translation": "Penjualan yang Dibatalkan"
+        },
+        {
+            "label": "captcha_provider",
+            "translation": "Penyedia Captcha"
+        },
+        {
+            "label": "captcha_settings",
+            "translation": "Pengaturan Captcha"
+        },
+        {
+            "label": "card_number",
+            "translation": "Nomor Kartu"
+        },
+        {
+            "label": "cart",
+            "translation": "Gerobak"
+        },
+        {
+            "label": "cart_location_selection",
+            "translation": "Pemilihan Lokasi Keranjang"
+        },
+        {
+            "label": "cart_location_selection_exp",
+            "translation": "Mewajibkan pelanggan untuk memilih lokasinya di keranjang jika belum diketahui"
+        },
+        {
+            "label": "cart_payment",
+            "translation": "Pembayaran Keranjang"
+        },
+        {
+            "label": "cash_on_delivery",
+            "translation": "Pembayaran Tunai"
+        },
+        {
+            "label": "cash_on_delivery_exp",
+            "translation": "Bayar dengan uang tunai pada saat pengiriman."
+        },
+        {
+            "label": "cash_on_delivery_vendor_exp",
+            "translation": "Jual produk Anda dengan opsi bayar saat pengiriman"
+        },
+        {
+            "label": "cash_on_delivery_warning",
+            "translation": "Anda telah memilih 'Cash on Delivery' sebagai metode pembayaran Anda. Anda harus membayar jumlah total ketika Anda menerima paket Anda. Jika Anda menerima metode pembayaran ini, silakan klik tombol di bawah untuk menyelesaikan pesanan Anda."
+        },
+        {
+            "label": "categories",
+            "translation": "Kategori"
+        },
+        {
+            "label": "category",
+            "translation": "Kategori"
+        },
+        {
+            "label": "category_cache",
+            "translation": "Kategori Cache"
+        },
+        {
+            "label": "category_level",
+            "translation": "Tingkat Kategori"
+        },
+        {
+            "label": "category_name",
+            "translation": "Nama Kategori"
+        },
+        {
+            "label": "cell_phone",
+            "translation": "Ponsel"
+        },
+        {
+            "label": "center",
+            "translation": "Pusat"
+        },
+        {
+            "label": "change_password",
+            "translation": "Ubah Kata Sandi"
+        },
+        {
+            "label": "change_user_role",
+            "translation": "Ubah Peran Pengguna"
+        },
+        {
+            "label": "chat_messages",
+            "translation": "Pesan Obrolan"
+        },
+        {
+            "label": "checkbox",
+            "translation": "kotak centang"
+        },
+        {
+            "label": "checking_out_as_guest",
+            "translation": "Anda check out sebagai tamu"
+        },
+        {
+            "label": "checkout",
+            "translation": "Pembayaran"
+        },
+        {
+            "label": "choose_plan",
+            "translation": "Pilih Paket"
+        },
+        {
+            "label": "cities",
+            "translation": "kota"
+        },
+        {
+            "label": "city",
+            "translation": "Kota"
+        },
+        {
+            "label": "classified_ads",
+            "translation": "Iklan Baris"
+        },
+        {
+            "label": "classified_ads_adding_product_as_listing",
+            "translation": "Iklan Baris (Menambahkan Produk atau Layanan sebagai Daftar Biasa)"
+        },
+        {
+            "label": "clear",
+            "translation": "Jelas"
+        },
+        {
+            "label": "client_id",
+            "translation": "ID Klien"
+        },
+        {
+            "label": "client_information",
+            "translation": "Informasi Klien"
+        },
+        {
+            "label": "client_secret",
+            "translation": "Rahasia Klien"
+        },
+        {
+            "label": "close",
+            "translation": "Tutup"
+        },
+        {
+            "label": "close_seller_shop",
+            "translation": "Tutup Toko Penjual"
+        },
+        {
+            "label": "close_ticket",
+            "translation": "Tutup Tiket"
+        },
+        {
+            "label": "close_user_shop",
+            "translation": "Tutup Toko Pengguna"
+        },
+        {
+            "label": "closed",
+            "translation": "Tertutup"
+        },
+        {
+            "label": "cloudflare_turnstile",
+            "translation": "Pintu Putar Cloudflare (CAPTCHA)\r\n"
+        },
+        {
+            "label": "cm",
+            "translation": "cm"
+        },
+        {
+            "label": "cod_cancel_exp",
+            "translation": "Anda dapat membatalkan pesanan Anda dalam waktu 24 jam setelah tanggal pemesanan."
+        },
+        {
+            "label": "cod_option_disabled",
+            "translation": "Opsi pembayaran Cash on Delivery telah dinonaktifkan hingga hutang komisi Anda dibayar."
+        },
+        {
+            "label": "color",
+            "translation": "Warna"
+        },
+        {
+            "label": "comment",
+            "translation": "Komentar"
+        },
+        {
+            "label": "comment_approval_system",
+            "translation": "Sistem Persetujuan Komentar"
+        },
+        {
+            "label": "comments",
+            "translation": "Komentar"
+        },
+        {
+            "label": "commission",
+            "translation": "Komisi"
+        },
+        {
+            "label": "commission_debt",
+            "translation": "Hutang Komisi"
+        },
+        {
+            "label": "commission_debt_limit",
+            "translation": "Batas Hutang Komisi"
+        },
+        {
+            "label": "commission_debt_limit_exp",
+            "translation": "Komisi Cash on Delivery akan secara otomatis dipotong dari saldo dompet Anda. Jika dana dompet Anda tidak mencukupi, komisi akan ditambahkan sebagai hutang. Ketika hutang ini melebihi batas hutang yang ditentukan, opsi pembayaran ini akan otomatis dinonaktifkan untuk toko Anda."
+        },
+        {
+            "label": "commission_rate",
+            "translation": "Tarif Komisi"
+        },
+        {
+            "label": "commissions_discounts",
+            "translation": "Komisi & Diskon"
+        },
+        {
+            "label": "complete_payment",
+            "translation": "Selesaikan Pembayaran"
+        },
+        {
+            "label": "completed",
+            "translation": "Selesai"
+        },
+        {
+            "label": "completed_orders",
+            "translation": "Pesanan Selesai"
+        },
+        {
+            "label": "completed_sales",
+            "translation": "Penjualan Selesai"
+        },
+        {
+            "label": "confirm",
+            "translation": "Konfirmasikan"
+        },
+        {
+            "label": "confirm_action",
+            "translation": "Apakah Anda yakin ingin melakukan tindakan ini?"
+        },
+        {
+            "label": "confirm_and_pay",
+            "translation": "Konfirmasi dan Bayar"
+        },
+        {
+            "label": "confirm_approve_order",
+            "translation": "Apakah Anda yakin ingin mengonfirmasi pesanan ini?"
+        },
+        {
+            "label": "confirm_close_user_shop",
+            "translation": "Apakah Anda yakin ingin menutup toko ini?"
+        },
+        {
+            "label": "confirm_comment",
+            "translation": "Apakah Anda yakin ingin menghapus komentar ini?"
+        },
+        {
+            "label": "confirm_comments",
+            "translation": "Apakah Anda yakin ingin menghapus komentar yang dipilih?"
+        },
+        {
+            "label": "confirm_delete",
+            "translation": "Apakah Anda yakin ingin menghapus item ini?"
+        },
+        {
+            "label": "confirm_duplicate_product",
+            "translation": "Apakah Anda ingin membuat duplikat produk ini? Ini akan disimpan sebagai draf."
+        },
+        {
+            "label": "confirm_message",
+            "translation": "Apakah Anda yakin ingin menghapus percakapan ini?"
+        },
+        {
+            "label": "confirm_messages",
+            "translation": "Apakah Anda yakin ingin menghapus percakapan yang dipilih?"
+        },
+        {
+            "label": "confirm_order_received",
+            "translation": "Konfirmasi Pesanan Diterima"
+        },
+        {
+            "label": "confirm_order_received_exp",
+            "translation": "Konfirmasikan jika Anda telah menerima pesanan Anda."
+        },
+        {
+            "label": "confirm_order_received_warning",
+            "translation": "Ketika Anda menerima pesanan Anda, silakan periksa produk yang telah Anda beli. Jika tidak ada masalah, klik tombol 'Konfirmasi Pesanan Diterima'. Setelah konfirmasi pesanan Anda, uang akan ditransfer ke penjual."
+        },
+        {
+            "label": "confirm_payment",
+            "translation": "Konfirmasi Pembayaran"
+        },
+        {
+            "label": "confirm_product",
+            "translation": "Apakah Anda yakin ingin menghapus produk ini?"
+        },
+        {
+            "label": "confirm_product_audio",
+            "translation": "Apakah Anda yakin ingin menghapus audio ini?"
+        },
+        {
+            "label": "confirm_product_permanent",
+            "translation": "Apakah Anda yakin ingin menghapus produk ini secara permanen?"
+        },
+        {
+            "label": "confirm_product_video",
+            "translation": "Apakah Anda yakin ingin menghapus video ini?"
+        },
+        {
+            "label": "confirm_products",
+            "translation": "Apakah Anda yakin ingin menghapus produk yang dipilih?"
+        },
+        {
+            "label": "confirm_quote_request",
+            "translation": "Apakah Anda yakin ingin menghapus permintaan penawaran harga ini?"
+        },
+        {
+            "label": "confirm_review",
+            "translation": "Apakah Anda yakin ingin menghapus ulasan ini?"
+        },
+        {
+            "label": "confirm_reviews",
+            "translation": "Apakah Anda yakin ingin menghapus ulasan terpilih?"
+        },
+        {
+            "label": "confirm_slider_item",
+            "translation": "Apakah Anda yakin ingin menghapus item penggeser ini?"
+        },
+        {
+            "label": "confirm_user",
+            "translation": "Apakah Anda yakin ingin menghapus pengguna ini?"
+        },
+        {
+            "label": "confirm_user_email",
+            "translation": "Konfirmasi Email"
+        },
+        {
+            "label": "confirm_your_account",
+            "translation": "Konfirmasikan Akun Anda"
+        },
+        {
+            "label": "confirmed",
+            "translation": "Dikonfirmasi"
+        },
+        {
+            "label": "connect_with_google",
+            "translation": "Terhubung dengan Google"
+        },
+        {
+            "label": "connect_with_vk",
+            "translation": "Terhubung dengan VKontakte"
+        },
+        {
+            "label": "contact",
+            "translation": "Kontak"
+        },
+        {
+            "label": "contact_message",
+            "translation": "Pesan Kontak"
+        },
+        {
+            "label": "contact_messages",
+            "translation": "Pesan Kontak"
+        },
+        {
+            "label": "contact_seller",
+            "translation": "Hubungi Penjual"
+        },
+        {
+            "label": "contact_settings",
+            "translation": "Pengaturan Kontak"
+        },
+        {
+            "label": "contact_support",
+            "translation": "Hubungi Dukungan"
+        },
+        {
+            "label": "contact_support_exp",
+            "translation": "Jika Anda tidak menemukan apa yang Anda cari, Anda dapat mengirimkan permintaan dukungan di sini."
+        },
+        {
+            "label": "contact_text",
+            "translation": "Teks Kontak"
+        },
+        {
+            "label": "content",
+            "translation": "Konten"
+        },
+        {
+            "label": "content_type",
+            "translation": "Tipe Konten"
+        },
+        {
+            "label": "contents",
+            "translation": "Isi"
+        },
+        {
+            "label": "continent",
+            "translation": "Benua"
+        },
+        {
+            "label": "continue_to_checkout",
+            "translation": "Lanjutkan ke Pembayaran"
+        },
+        {
+            "label": "continue_to_payment",
+            "translation": "Lanjutkan ke Pembayaran"
+        },
+        {
+            "label": "continue_to_payment_method",
+            "translation": "Lanjutkan ke Metode Pembayaran"
+        },
+        {
+            "label": "cookies_warning",
+            "translation": "Peringatan Cookie"
+        },
+        {
+            "label": "copied",
+            "translation": "Disalin"
+        },
+        {
+            "label": "copy",
+            "translation": "Salin"
+        },
+        {
+            "label": "copy_code",
+            "translation": "Salin Kode"
+        },
+        {
+            "label": "copy_link",
+            "translation": "Salin Tautan"
+        },
+        {
+            "label": "copyright",
+            "translation": "Hak Cipta"
+        },
+        {
+            "label": "cost",
+            "translation": "Biaya"
+        },
+        {
+            "label": "countries",
+            "translation": "Negara"
+        },
+        {
+            "label": "country",
+            "translation": "Negara"
+        },
+        {
+            "label": "coupon",
+            "translation": "Kupon"
+        },
+        {
+            "label": "coupon_code",
+            "translation": "Kode Kupon"
+        },
+        {
+            "label": "coupon_minimum_cart_total_exp",
+            "translation": "Total keranjang minimum yang diperlukan untuk menggunakan kupon"
+        },
+        {
+            "label": "coupon_usage_type",
+            "translation": "Jenis Penggunaan Kupon"
+        },
+        {
+            "label": "coupon_usage_type_1",
+            "translation": "Setiap pengguna hanya dapat menggunakannya untuk satu pesanan"
+        },
+        {
+            "label": "coupon_usage_type_2",
+            "translation": "Setiap pengguna dapat menggunakannya untuk beberapa pesanan (Tamu dapat menggunakannya)"
+        },
+        {
+            "label": "coupon_valid_till",
+            "translation": "Berlaku hingga: {field}"
+        },
+        {
+            "label": "coupons",
+            "translation": "Kupon"
+        },
+        {
+            "label": "cover_image_type",
+            "translation": "Jenis Gambar Sampul"
+        },
+        {
+            "label": "cpf",
+            "translation": "CPF"
+        },
+        {
+            "label": "create_ad_exp",
+            "translation": "Jika Anda tidak memiliki kode iklan, Anda dapat membuat kode iklan dengan memilih gambar dan menambahkan URL"
+        },
+        {
+            "label": "create_affiliate_link",
+            "translation": "Buat tautan afiliasi"
+        },
+        {
+            "label": "create_extra_options",
+            "translation": "Buat Opsi Ekstra"
+        },
+        {
+            "label": "create_new_plan",
+            "translation": "Buat Rencana Baru"
+        },
+        {
+            "label": "create_variants",
+            "translation": "Buat Varian"
+        },
+        {
+            "label": "credit_card",
+            "translation": "Kartu Kredit"
+        },
+        {
+            "label": "csv_file",
+            "translation": "Berkas CSV"
+        },
+        {
+            "label": "currencies",
+            "translation": "Mata uang"
+        },
+        {
+            "label": "currency",
+            "translation": "Mata uang"
+        },
+        {
+            "label": "currency_code",
+            "translation": "Kode Mata Uang"
+        },
+        {
+            "label": "currency_converter",
+            "translation": "Konverter Mata Uang"
+        },
+        {
+            "label": "currency_converter_api",
+            "translation": "API Pengonversi Mata Uang"
+        },
+        {
+            "label": "currency_format",
+            "translation": "Format Mata Uang"
+        },
+        {
+            "label": "currency_name",
+            "translation": "Nama Mata Uang"
+        },
+        {
+            "label": "currency_not_supported",
+            "translation": "Metode pembayaran yang dipilih tidak dapat digunakan dengan mata uang yang dipilih. Untuk menyelesaikan pembelian Anda, silakan pilih mata uang yang didukung atau pilih metode pembayaran lain."
+        },
+        {
+            "label": "currency_settings",
+            "translation": "Pengaturan Mata Uang"
+        },
+        {
+            "label": "currency_symbol",
+            "translation": "Simbol Mata Uang"
+        },
+        {
+            "label": "currency_symbol_format",
+            "translation": "Format Simbol Mata Uang"
+        },
+        {
+            "label": "current_plan",
+            "translation": "Rencana Saat Ini"
+        },
+        {
+            "label": "custom",
+            "translation": "Adat"
+        },
+        {
+            "label": "custom_field",
+            "translation": "Bidang Kustom"
+        },
+        {
+            "label": "custom_field_options",
+            "translation": "Opsi Bidang Kustom"
+        },
+        {
+            "label": "custom_fields",
+            "translation": "Bidang Kustom"
+        },
+        {
+            "label": "custom_footer_codes",
+            "translation": "Kode Footer Khusus"
+        },
+        {
+            "label": "custom_footer_codes_exp",
+            "translation": "Kode-kode ini akan ditambahkan ke footer situs"
+        },
+        {
+            "label": "custom_header_codes",
+            "translation": "Kode Tajuk Khusus"
+        },
+        {
+            "label": "custom_header_codes_exp",
+            "translation": "Kode-kode ini akan ditambahkan ke header situs"
+        },
+        {
+            "label": "cvv",
+            "translation": "CVV"
+        },
+        {
+            "label": "cvv_exp",
+            "translation": "Kode tiga digit di bagian belakang kartu Anda"
+        },
+        {
+            "label": "daily",
+            "translation": "Setiap hari"
+        },
+        {
+            "label": "daily_plan",
+            "translation": "Paket Harian"
+        },
+        {
+            "label": "dashboard",
+            "translation": "Dasbor"
+        },
+        {
+            "label": "dashboard_font",
+            "translation": "Font Dasbor"
+        },
+        {
+            "label": "data_type",
+            "translation": "Tipe Data"
+        },
+        {
+            "label": "date",
+            "translation": "Tanggal"
+        },
+        {
+            "label": "date_added",
+            "translation": "Tanggal Ditambahkan"
+        },
+        {
+            "label": "date_of_birth",
+            "translation": "Tanggal Lahir"
+        },
+        {
+            "label": "day",
+            "translation": "Hari"
+        },
+        {
+            "label": "day_ago",
+            "translation": "hari yang lalu"
+        },
+        {
+            "label": "days",
+            "translation": "hari"
+        },
+        {
+            "label": "days_ago",
+            "translation": "beberapa hari yang lalu"
+        },
+        {
+            "label": "days_left",
+            "translation": "hari tersisa"
+        },
+        {
+            "label": "deactivate_delected",
+            "translation": "Nonaktifkan yang Dipilih"
+        },
+        {
+            "label": "december",
+            "translation": "Desember"
+        },
+        {
+            "label": "decimal_seperator",
+            "translation": "Pemisah Desimal"
+        },
+        {
+            "label": "decline",
+            "translation": "Tolak"
+        },
+        {
+            "label": "declined",
+            "translation": "Ditolak"
+        },
+        {
+            "label": "default",
+            "translation": "Bawaan"
+        },
+        {
+            "label": "default_currency",
+            "translation": "Mata Uang Default"
+        },
+        {
+            "label": "default_language",
+            "translation": "Bahasa Bawaan"
+        },
+        {
+            "label": "default_variant",
+            "translation": "Varian Bawaan"
+        },
+        {
+            "label": "delete",
+            "translation": "Hapus"
+        },
+        {
+            "label": "delete_account",
+            "translation": "Hapus Akun"
+        },
+        {
+            "label": "delete_account_exp",
+            "translation": "Penghapusan akun Anda bersifat permanen dan tidak dapat dibatalkan. Semua data, termasuk preferensi dan langganan, akan hilang. Prosesnya memerlukan persetujuan admin, yang mungkin memerlukan waktu. Silakan masukkan kata sandi Anda dan konfirmasi untuk melanjutkan."
+        },
+        {
+            "label": "delete_account_submit_exp",
+            "translation": "Permintaan penghapusan akun Anda telah dikirimkan dan menunggu persetujuan admin. Jika Anda ingin membatalkan permintaan ini, silakan hubungi administrasi situs melalui Pusat Bantuan."
+        },
+        {
+            "label": "delete_conversation",
+            "translation": "Hapus Percakapan"
+        },
+        {
+            "label": "delete_from_affiliate_program",
+            "translation": "Hapus dari Program Afiliasi"
+        },
+        {
+            "label": "delete_permanently",
+            "translation": "Hapus Secara Permanen"
+        },
+        {
+            "label": "delete_quote",
+            "translation": "Hapus Kutipan"
+        },
+        {
+            "label": "deleted",
+            "translation": "Dihapus"
+        },
+        {
+            "label": "deleted_products",
+            "translation": "Produk yang Dihapus"
+        },
+        {
+            "label": "delivery_time",
+            "translation": "Waktu Pengiriman"
+        },
+        {
+            "label": "demo_url",
+            "translation": "URL demo"
+        },
+        {
+            "label": "demo_url_exp",
+            "translation": "Tambahkan URL pratinjau (yaitu https://demo.com)"
+        },
+        {
+            "label": "deposit_amount",
+            "translation": "Jumlah Setoran"
+        },
+        {
+            "label": "deposits",
+            "translation": "Deposito"
+        },
+        {
+            "label": "description",
+            "translation": "Deskripsi"
+        },
+        {
+            "label": "details",
+            "translation": "Detail"
+        },
+        {
+            "label": "digital",
+            "translation": "digital"
+        },
+        {
+            "label": "digital_exp",
+            "translation": "File digital yang akan diunduh pembeli"
+        },
+        {
+            "label": "digital_file",
+            "translation": "Berkas Digital"
+        },
+        {
+            "label": "digital_file_required",
+            "translation": "File digital diperlukan!"
+        },
+        {
+            "label": "digital_files",
+            "translation": "File Digital"
+        },
+        {
+            "label": "digital_products",
+            "translation": "Produk Digital"
+        },
+        {
+            "label": "digital_sales",
+            "translation": "Penjualan Digital"
+        },
+        {
+            "label": "dimensions",
+            "translation": "Dimensi"
+        },
+        {
+            "label": "disable",
+            "translation": "Nonaktifkan"
+        },
+        {
+            "label": "discord_url",
+            "translation": "Url Perselisihan"
+        },
+        {
+            "label": "discount",
+            "translation": "Diskon"
+        },
+        {
+            "label": "discount_coupon",
+            "translation": "Kupon Diskon"
+        },
+        {
+            "label": "discount_rate",
+            "translation": "Tingkat Diskon"
+        },
+        {
+            "label": "discounted_price",
+            "translation": "Harga Diskon"
+        },
+        {
+            "label": "dlocalgo",
+            "translation": "dLokal Pergi"
+        },
+        {
+            "label": "do_not_have_membership_plan",
+            "translation": "Anda tidak memiliki paket keanggotaan. Klik tombol di bawah untuk membeli paket keanggotaan."
+        },
+        {
+            "label": "documentation",
+            "translation": "Dokumentasi"
+        },
+        {
+            "label": "domain",
+            "translation": "Domain"
+        },
+        {
+            "label": "dont_have_account",
+            "translation": "Belum punya akun?"
+        },
+        {
+            "label": "dont_want_receive_emails",
+            "translation": "Tidak ingin menerima email ini?"
+        },
+        {
+            "label": "download",
+            "translation": "Unduh"
+        },
+        {
+            "label": "download_csv_example",
+            "translation": "Unduh Contoh CSV"
+        },
+        {
+            "label": "download_csv_template",
+            "translation": "Unduh Templat CSV"
+        },
+        {
+            "label": "download_database_backup",
+            "translation": "Unduh Cadangan Basis Data"
+        },
+        {
+            "label": "downloads",
+            "translation": "Unduhan"
+        },
+        {
+            "label": "draft",
+            "translation": "Draf"
+        },
+        {
+            "label": "draft_added",
+            "translation": "Draf berhasil ditambahkan!"
+        },
+        {
+            "label": "drafts",
+            "translation": "Draf"
+        },
+        {
+            "label": "drag_drop_file_here",
+            "translation": "Seret dan letakkan file di sini atau"
+        },
+        {
+            "label": "drag_drop_images_here",
+            "translation": "Seret dan letakkan gambar di sini atau"
+        },
+        {
+            "label": "dropdown",
+            "translation": "tarik-turun"
+        },
+        {
+            "label": "duplicate",
+            "translation": "Duplikat"
+        },
+        {
+            "label": "duration",
+            "translation": "Durasi"
+        },
+        {
+            "label": "earned_amount",
+            "translation": "Jumlah yang Diperoleh"
+        },
+        {
+            "label": "earnings",
+            "translation": "Penghasilan"
+        },
+        {
+            "label": "edit",
+            "translation": "Sunting"
+        },
+        {
+            "label": "edit_address",
+            "translation": "Sunting Alamat"
+        },
+        {
+            "label": "edit_banner",
+            "translation": "Sunting Spanduk"
+        },
+        {
+            "label": "edit_brand",
+            "translation": "Sunting Merek"
+        },
+        {
+            "label": "edit_content",
+            "translation": "Sunting Konten"
+        },
+        {
+            "label": "edit_coupon",
+            "translation": "Sunting Kupon"
+        },
+        {
+            "label": "edit_delivery_time",
+            "translation": "Edit Waktu Pengiriman"
+        },
+        {
+            "label": "edit_details",
+            "translation": "Sunting Detail"
+        },
+        {
+            "label": "edit_option",
+            "translation": "Opsi Sunting"
+        },
+        {
+            "label": "edit_options",
+            "translation": "Edit Opsi"
+        },
+        {
+            "label": "edit_order",
+            "translation": "Sunting Pesanan"
+        },
+        {
+            "label": "edit_plan",
+            "translation": "Sunting Rencana"
+        },
+        {
+            "label": "edit_product",
+            "translation": "Sunting Produk"
+        },
+        {
+            "label": "edit_products",
+            "translation": "Sunting Produk"
+        },
+        {
+            "label": "edit_role",
+            "translation": "Sunting Peran"
+        },
+        {
+            "label": "edit_shipping_zone",
+            "translation": "Sunting Zona Pengiriman"
+        },
+        {
+            "label": "edit_tax",
+            "translation": "Sunting Pajak"
+        },
+        {
+            "label": "edit_translations",
+            "translation": "Sunting Terjemahan"
+        },
+        {
+            "label": "edit_user",
+            "translation": "Sunting Pengguna"
+        },
+        {
+            "label": "edited_products",
+            "translation": "Produk yang Diedit"
+        },
+        {
+            "label": "effect",
+            "translation": "Efek"
+        },
+        {
+            "label": "email",
+            "translation": "Surel"
+        },
+        {
+            "label": "email_address",
+            "translation": "Alamat Surel"
+        },
+        {
+            "label": "email_blacklist",
+            "translation": "Daftar Hitam Email"
+        },
+        {
+            "label": "email_option_contact_messages",
+            "translation": "Kirim pesan kontak ke alamat email"
+        },
+        {
+            "label": "email_option_product_added",
+            "translation": "Kirim email ketika produk baru ditambahkan"
+        },
+        {
+            "label": "email_option_send_email_new_message",
+            "translation": "Kirimi saya email ketika seseorang mengirimi saya pesan"
+        },
+        {
+            "label": "email_option_send_email_order_shipped",
+            "translation": "Kirim email ke pembeli saat pesanan dikirimkan"
+        },
+        {
+            "label": "email_option_send_order_to_buyer",
+            "translation": "Kirim email ke pembeli setelah pembelian (Kirim ringkasan pesanan)"
+        },
+        {
+            "label": "email_options",
+            "translation": "Opsi Email"
+        },
+        {
+            "label": "email_reset_password",
+            "translation": "Silakan klik tombol di bawah ini untuk mengatur ulang kata sandi Anda."
+        },
+        {
+            "label": "email_settings",
+            "translation": "Pengaturan Surel"
+        },
+        {
+            "label": "email_status",
+            "translation": "Status Surel"
+        },
+        {
+            "label": "email_template",
+            "translation": "Templat Email"
+        },
+        {
+            "label": "email_text_new_order",
+            "translation": "Pesanan Anda telah diterima dan sekarang sedang diproses. Detail pesanan Anda ditunjukkan di bawah ini."
+        },
+        {
+            "label": "email_text_new_product",
+            "translation": "Produk baru telah ditambahkan"
+        },
+        {
+            "label": "email_text_see_product",
+            "translation": "Klik tombol di bawah untuk melihat produknya."
+        },
+        {
+            "label": "email_text_thank_for_order",
+            "translation": "Terima kasih atas pesanan Anda!"
+        },
+        {
+            "label": "email_verification",
+            "translation": "Verifikasi Email"
+        },
+        {
+            "label": "enable",
+            "translation": "Aktifkan"
+        },
+        {
+            "label": "enable_dont_hide_products",
+            "translation": "Aktifkan, Jangan Sembunyikan Produk"
+        },
+        {
+            "label": "enable_for_all_products",
+            "translation": "Aktifkan Untuk Semua Produk"
+        },
+        {
+            "label": "enable_hide_products",
+            "translation": "Aktifkan, Sembunyikan Produk Hingga Disetujui"
+        },
+        {
+            "label": "enable_only_for_selected_products",
+            "translation": "Aktifkan Hanya untuk Produk Terpilih (produk dapat dipilih dari halaman produk)"
+        },
+        {
+            "label": "enable_whatsapp_contact",
+            "translation": "Aktifkan Kontak WhatsApp"
+        },
+        {
+            "label": "enable_whatsapp_contact_exp",
+            "translation": "Izinkan penjual untuk menampilkan tombol kontak WhatsApp di halaman produk mereka."
+        },
+        {
+            "label": "encryption",
+            "translation": "Enkripsi"
+        },
+        {
+            "label": "end",
+            "translation": "Akhir"
+        },
+        {
+            "label": "endpoint_url",
+            "translation": "URL titik akhir"
+        },
+        {
+            "label": "enter_amount",
+            "translation": "Masukkan Jumlah"
+        },
+        {
+            "label": "enter_email",
+            "translation": "Masukkan email Anda"
+        },
+        {
+            "label": "enter_topic",
+            "translation": "Masukkan topik"
+        },
+        {
+            "label": "enter_two_characters",
+            "translation": "Masukkan minimal 2 karakter"
+        },
+        {
+            "label": "enter_your_password",
+            "translation": "Masukkan kata sandi Anda"
+        },
+        {
+            "label": "error_image_limit",
+            "translation": "Batas unggahan gambar terlampaui!"
+        },
+        {
+            "label": "error_product_image_delete",
+            "translation": "Sebelum menghapus gambar produk, Anda perlu mengunggah gambar lain untuk produk tersebut!"
+        },
+        {
+            "label": "error_product_image_required",
+            "translation": "Gambar produk wajib diisi! Silakan unggah gambar untuk produk Anda."
+        },
+        {
+            "label": "estimated_delivery",
+            "translation": "Estimasi Pengiriman"
+        },
+        {
+            "label": "example",
+            "translation": "Contoh"
+        },
+        {
+            "label": "excel",
+            "translation": "Unggul"
+        },
+        {
+            "label": "exchange_rate",
+            "translation": "Nilai Tukar"
+        },
+        {
+            "label": "exp_special_characters",
+            "translation": "Jangan gunakan karakter khusus"
+        },
+        {
+            "label": "expense",
+            "translation": "Biaya"
+        },
+        {
+            "label": "expense_amount",
+            "translation": "Jumlah Biaya"
+        },
+        {
+            "label": "expenses",
+            "translation": "Biaya"
+        },
+        {
+            "label": "expiration_date",
+            "translation": "Tanggal Kedaluwarsa (MM/YY)"
+        },
+        {
+            "label": "expired",
+            "translation": "Kedaluwarsa"
+        },
+        {
+            "label": "expired_products",
+            "translation": "Produk Kedaluwarsa"
+        },
+        {
+            "label": "expiry_date",
+            "translation": "Tanggal Kedaluwarsa"
+        },
+        {
+            "label": "explanation",
+            "translation": "Penjelasan"
+        },
+        {
+            "label": "export",
+            "translation": "Ekspor"
+        },
+        {
+            "label": "external_download_link",
+            "translation": "Tautan Unduhan Eksternal"
+        },
+        {
+            "label": "external_link",
+            "translation": "Tautan Eksternal"
+        },
+        {
+            "label": "external_link_exp",
+            "translation": "Anda dapat menambahkan tautan produk eksternal. (yaitu https://domain.com/product)"
+        },
+        {
+            "label": "facebook_url",
+            "translation": "URL Facebook"
+        },
+        {
+            "label": "fade",
+            "translation": "Memudar"
+        },
+        {
+            "label": "favicon",
+            "translation": "favicon"
+        },
+        {
+            "label": "feature",
+            "translation": "Fitur"
+        },
+        {
+            "label": "featured",
+            "translation": "Unggulan"
+        },
+        {
+            "label": "featured_badge",
+            "translation": "Lencana Unggulan"
+        },
+        {
+            "label": "featured_categories",
+            "translation": "Kategori Unggulan"
+        },
+        {
+            "label": "featured_categories_exp",
+            "translation": "Pilih kategori yang ingin Anda tampilkan di bawah penggeser"
+        },
+        {
+            "label": "featured_product_fees",
+            "translation": "Biaya Produk Unggulan (Dipromosikan)."
+        },
+        {
+            "label": "featured_products",
+            "translation": "Produk Unggulan"
+        },
+        {
+            "label": "featured_products_payment_currency",
+            "translation": "Mata Uang Pembayaran Produk Unggulan"
+        },
+        {
+            "label": "featured_products_system",
+            "translation": "Sistem Produk Unggulan"
+        },
+        {
+            "label": "features",
+            "translation": "Fitur"
+        },
+        {
+            "label": "february",
+            "translation": "Februari"
+        },
+        {
+            "label": "field",
+            "translation": "Bidang"
+        },
+        {
+            "label": "field_name",
+            "translation": "Nama Bidang"
+        },
+        {
+            "label": "file_too_large",
+            "translation": "File terlalu besar. Ukuran file maksimal:"
+        },
+        {
+            "label": "file_upload",
+            "translation": "Unggah Berkas"
+        },
+        {
+            "label": "files_included",
+            "translation": "Termasuk File"
+        },
+        {
+            "label": "files_included_ext",
+            "translation": "Masukkan ekstensi file yang akan Anda jual (yaitu JPG, MP4, MP3)"
+        },
+        {
+            "label": "filter",
+            "translation": "Menyaring"
+        },
+        {
+            "label": "filter_by_keyword",
+            "translation": "Filter berdasarkan kata kunci"
+        },
+        {
+            "label": "filter_key",
+            "translation": "Kunci Penyaring"
+        },
+        {
+            "label": "filter_key_exp",
+            "translation": "Jangan menambahkan karakter khusus"
+        },
+        {
+            "label": "filter_products",
+            "translation": "Saring Produk"
+        },
+        {
+            "label": "filter_products_location",
+            "translation": "Filter produk berdasarkan lokasi"
+        },
+        {
+            "label": "first_name",
+            "translation": "Nama Depan"
+        },
+        {
+            "label": "flag",
+            "translation": "Bendera"
+        },
+        {
+            "label": "flat_rate",
+            "translation": "Tarif Tetap"
+        },
+        {
+            "label": "flat_rate_exp",
+            "translation": "Pengiriman standar"
+        },
+        {
+            "label": "flat_rate_rules",
+            "translation": "Aturan Tarif Tetap"
+        },
+        {
+            "label": "flutterwave",
+            "translation": "gelombang bergetar"
+        },
+        {
+            "label": "folder_name",
+            "translation": "Nama Folder"
+        },
+        {
+            "label": "follow",
+            "translation": "Ikuti"
+        },
+        {
+            "label": "follow_us",
+            "translation": "Ikuti Kami"
+        },
+        {
+            "label": "followers",
+            "translation": "Pengikut"
+        },
+        {
+            "label": "following",
+            "translation": "Mengikuti"
+        },
+        {
+            "label": "font_family",
+            "translation": "Keluarga Font"
+        },
+        {
+            "label": "font_settings",
+            "translation": "Pengaturan Font"
+        },
+        {
+            "label": "font_size",
+            "translation": "Ukuran Huruf"
+        },
+        {
+            "label": "fonts",
+            "translation": "font"
+        },
+        {
+            "label": "footer",
+            "translation": "catatan kaki"
+        },
+        {
+            "label": "footer_about_section",
+            "translation": "Footer Tentang Bagian"
+        },
+        {
+            "label": "footer_bottom",
+            "translation": "Catatan Kaki Bawah"
+        },
+        {
+            "label": "footer_information",
+            "translation": "Informasi"
+        },
+        {
+            "label": "footer_quick_links",
+            "translation": "Tautan Cepat"
+        },
+        {
+            "label": "forgot_password",
+            "translation": "Lupa Kata Sandi?"
+        },
+        {
+            "label": "form_validation_is_unique",
+            "translation": "Bidang {field} harus berisi nilai unik."
+        },
+        {
+            "label": "form_validation_matches",
+            "translation": "Bidang {field} tidak cocok dengan bidang {param}."
+        },
+        {
+            "label": "form_validation_max_length",
+            "translation": "Panjang bidang {field} tidak boleh melebihi {param} karakter."
+        },
+        {
+            "label": "form_validation_min_length",
+            "translation": "Panjang kolom {field} minimal harus {param} karakter."
+        },
+        {
+            "label": "form_validation_required",
+            "translation": "Bidang {field} wajib diisi."
+        },
+        {
+            "label": "free",
+            "translation": "Gratis"
+        },
+        {
+            "label": "free_product",
+            "translation": "Produk Gratis"
+        },
+        {
+            "label": "free_promotion",
+            "translation": "Promosi Gratis"
+        },
+        {
+            "label": "free_shipping",
+            "translation": "Pengiriman Gratis"
+        },
+        {
+            "label": "free_shipping_exp",
+            "translation": "Dapatkan pesanan Anda dikirimkan secara gratis"
+        },
+        {
+            "label": "frequency",
+            "translation": "Frekuensi"
+        },
+        {
+            "label": "frequency_exp",
+            "translation": "Nilai ini menunjukkan seberapa sering konten pada URL tertentu cenderung berubah "
+        },
+        {
+            "label": "frequently_asked_questions",
+            "translation": "Pertanyaan yang Sering Diajukan"
+        },
+        {
+            "label": "friday",
+            "translation": "Jumat"
+        },
+        {
+            "label": "from",
+            "translation": "Dari:"
+        },
+        {
+            "label": "full_name",
+            "translation": "Nama Lengkap"
+        },
+        {
+            "label": "full_width",
+            "translation": "Lebar Penuh"
+        },
+        {
+            "label": "general",
+            "translation": "Umum"
+        },
+        {
+            "label": "general_information",
+            "translation": "Informasi Umum"
+        },
+        {
+            "label": "general_settings",
+            "translation": "Pengaturan Umum"
+        },
+        {
+            "label": "generate",
+            "translation": "Hasilkan"
+        },
+        {
+            "label": "generate_content",
+            "translation": "Hasilkan Konten"
+        },
+        {
+            "label": "generate_sitemap",
+            "translation": "Hasilkan Peta Situs"
+        },
+        {
+            "label": "generate_with_ai",
+            "translation": "Hasilkan dengan AI"
+        },
+        {
+            "label": "generated_sitemaps",
+            "translation": "Peta Situs yang Dihasilkan"
+        },
+        {
+            "label": "generating_content",
+            "translation": "Menghasilkan Konten..."
+        },
+        {
+            "label": "global",
+            "translation": "Global"
+        },
+        {
+            "label": "global_taxes",
+            "translation": "Pajak Global"
+        },
+        {
+            "label": "global_taxes_exp",
+            "translation": "Tentukan pajak baru berdasarkan negara untuk semua penjualan di situs Anda"
+        },
+        {
+            "label": "go_back_to_products",
+            "translation": "Kembali ke Halaman Produk"
+        },
+        {
+            "label": "go_back_to_shop_settings",
+            "translation": "Kembali ke Pengaturan Toko"
+        },
+        {
+            "label": "go_to_your_product",
+            "translation": "Buka Produk Anda"
+        },
+        {
+            "label": "google_adsense_code",
+            "translation": "Kode Google AdSense"
+        },
+        {
+            "label": "google_analytics",
+            "translation": "Kode Google Analytics"
+        },
+        {
+            "label": "google_login",
+            "translation": "Masuk Google"
+        },
+        {
+            "label": "google_recaptcha",
+            "translation": "Google reCAPTCHA"
+        },
+        {
+            "label": "google_url",
+            "translation": "URL Google+"
+        },
+        {
+            "label": "goto_home",
+            "translation": "Buka Beranda"
+        },
+        {
+            "label": "grid_layout",
+            "translation": "Tata Letak Kotak"
+        },
+        {
+            "label": "guest",
+            "translation": "Tamu"
+        },
+        {
+            "label": "guest_checkout",
+            "translation": "Pembayaran Tamu"
+        },
+        {
+            "label": "have_account",
+            "translation": "Punya akun?"
+        },
+        {
+            "label": "header",
+            "translation": "Tajuk"
+        },
+        {
+            "label": "height",
+            "translation": "Tinggi"
+        },
+        {
+            "label": "help_center",
+            "translation": "Pusat Bantuan"
+        },
+        {
+            "label": "help_documents",
+            "translation": "Dokumen Bantuan"
+        },
+        {
+            "label": "help_documents_exp",
+            "translation": "Anda dapat menggunakan dokumen-dokumen ini untuk menghasilkan file CSV Anda\r\n"
+        },
+        {
+            "label": "hi",
+            "translation": "Hai"
+        },
+        {
+            "label": "hidden",
+            "translation": "Tersembunyi"
+        },
+        {
+            "label": "hidden_products",
+            "translation": "Produk Tersembunyi"
+        },
+        {
+            "label": "hide",
+            "translation": "Sembunyikan"
+        },
+        {
+            "label": "highest_price",
+            "translation": "Harga Tertinggi"
+        },
+        {
+            "label": "highest_rating",
+            "translation": "Peringkat Tertinggi"
+        },
+        {
+            "label": "home",
+            "translation": "Rumah"
+        },
+        {
+            "label": "homepage",
+            "translation": "Beranda"
+        },
+        {
+            "label": "homepage_banners",
+            "translation": "Spanduk Beranda"
+        },
+        {
+            "label": "homepage_banners_exp",
+            "translation": "Anda dapat mengelola spanduk produk di beranda dari bagian ini"
+        },
+        {
+            "label": "homepage_manager",
+            "translation": "Manajer Beranda"
+        },
+        {
+            "label": "homepage_title",
+            "translation": "Judul Beranda"
+        },
+        {
+            "label": "horizontal_alignment",
+            "translation": "Penjajaran Horisontal"
+        },
+        {
+            "label": "hour_ago",
+            "translation": "satu jam yang lalu"
+        },
+        {
+            "label": "hours_ago",
+            "translation": "beberapa jam yang lalu"
+        },
+        {
+            "label": "how_can_we_help",
+            "translation": "Apa yang bisa kami bantu?"
+        },
+        {
+            "label": "how_it_works",
+            "translation": "Cara Kerjanya"
+        },
+        {
+            "label": "iban",
+            "translation": "IBAN"
+        },
+        {
+            "label": "iban_long",
+            "translation": "Nomor Rekening Bank Internasional"
+        },
+        {
+            "label": "id",
+            "translation": "identitas"
+        },
+        {
+            "label": "identity_number",
+            "translation": "Nomor Identitas"
+        },
+        {
+            "label": "if_review_already_added",
+            "translation": "Jika Anda sudah menambahkan ulasan, ulasan Anda akan diperbarui."
+        },
+        {
+            "label": "image",
+            "translation": "Gambar"
+        },
+        {
+            "label": "image_file_format",
+            "translation": "Format File Gambar"
+        },
+        {
+            "label": "image_file_format_exp",
+            "translation": "Gambar yang diunggah akan dikonversi ke format yang dipilih"
+        },
+        {
+            "label": "images",
+            "translation": "Gambar"
+        },
+        {
+            "label": "img_display_fill_container",
+            "translation": "Isi Wadah (Pangkas Agar Sesuai)"
+        },
+        {
+            "label": "img_display_show_full_image",
+            "translation": "Tampilkan Gambar Penuh (Pas di Dalam)"
+        },
+        {
+            "label": "import_language",
+            "translation": "Impor Bahasa"
+        },
+        {
+            "label": "in_stock",
+            "translation": "Tersedia"
+        },
+        {
+            "label": "inactivate_all",
+            "translation": "Nonaktifkan Semua"
+        },
+        {
+            "label": "inactive",
+            "translation": "Tidak aktif"
+        },
+        {
+            "label": "index_ad_space_1",
+            "translation": "Indeks Ruang Iklan 1"
+        },
+        {
+            "label": "index_ad_space_2",
+            "translation": "Indeks Ruang Iklan 2"
+        },
+        {
+            "label": "index_slider",
+            "translation": "Penggeser Indeks"
+        },
+        {
+            "label": "input_explanation",
+            "translation": "Penjelasan Masukan"
+        },
+        {
+            "label": "instagram_url",
+            "translation": "URL Instagram"
+        },
+        {
+            "label": "instant_download",
+            "translation": "Unduhan instan"
+        },
+        {
+            "label": "invalid_attempt",
+            "translation": "Upaya Tidak Valid!"
+        },
+        {
+            "label": "invalid_file_type",
+            "translation": "Jenis berkas tidak valid!"
+        },
+        {
+            "label": "invalid_withdrawal_amount",
+            "translation": "Jumlah penarikan tidak valid!"
+        },
+        {
+            "label": "invoice",
+            "translation": "Faktur"
+        },
+        {
+            "label": "invoice_currency_warning",
+            "translation": "Semua jumlah yang tertera pada faktur ini sudah masuk"
+        },
+        {
+            "label": "invoices",
+            "translation": "Faktur"
+        },
+        {
+            "label": "ip_address",
+            "translation": "Alamat Ip"
+        },
+        {
+            "label": "item",
+            "translation": "Barang"
+        },
+        {
+            "label": "iyzico",
+            "translation": "Iyzico"
+        },
+        {
+            "label": "iyzico_warning",
+            "translation": "Ini adalah integrasi \"Formulir Checkout\", bukan integrasi \"Marketplace\"."
+        },
+        {
+            "label": "january",
+            "translation": "Januari"
+        },
+        {
+            "label": "join_newsletter",
+            "translation": "Bergabunglah dengan Buletin Kami"
+        },
+        {
+            "label": "join_program",
+            "translation": "Bergabunglah dengan Program"
+        },
+        {
+            "label": "joined_affiliate_program",
+            "translation": "Anda bergabung dengan program afiliasi"
+        },
+        {
+            "label": "json_language_file",
+            "translation": "File Bahasa JSON"
+        },
+        {
+            "label": "july",
+            "translation": "Juli"
+        },
+        {
+            "label": "june",
+            "translation": "Juni"
+        },
+        {
+            "label": "just_now",
+            "translation": "Baru saja"
+        },
+        {
+            "label": "keep_original_file_format",
+            "translation": "Pertahankan Format File Asli"
+        },
+        {
+            "label": "keep_shopping",
+            "translation": "Terus Berbelanja"
+        },
+        {
+            "label": "key_id",
+            "translation": "ID Kunci"
+        },
+        {
+            "label": "keyword",
+            "translation": "Kata kunci"
+        },
+        {
+            "label": "keywords",
+            "translation": "Kata kunci"
+        },
+        {
+            "label": "kg",
+            "translation": "kg"
+        },
+        {
+            "label": "knowledge_base",
+            "translation": "Basis Pengetahuan"
+        },
+        {
+            "label": "label",
+            "translation": "Label"
+        },
+        {
+            "label": "language",
+            "translation": "Bahasa"
+        },
+        {
+            "label": "language_code",
+            "translation": "Kode Bahasa"
+        },
+        {
+            "label": "language_name",
+            "translation": "Nama Bahasa"
+        },
+        {
+            "label": "language_settings",
+            "translation": "Pengaturan Bahasa"
+        },
+        {
+            "label": "languages",
+            "translation": "Bahasa"
+        },
+        {
+            "label": "last_modification",
+            "translation": "Modifikasi Terakhir"
+        },
+        {
+            "label": "last_modification_exp",
+            "translation": "Waktu terakhir kali URL diubah"
+        },
+        {
+            "label": "last_name",
+            "translation": "Nama Belakang"
+        },
+        {
+            "label": "last_seen",
+            "translation": "Terakhir terlihat: "
+        },
+        {
+            "label": "last_update",
+            "translation": "Pembaruan Terakhir"
+        },
+        {
+            "label": "latest_blog_posts",
+            "translation": "Postingan Blog Terbaru"
+        },
+        {
+            "label": "latest_comments",
+            "translation": "Komentar Terbaru"
+        },
+        {
+            "label": "latest_members",
+            "translation": "Anggota Terbaru"
+        },
+        {
+            "label": "latest_orders",
+            "translation": "Pesanan Terbaru"
+        },
+        {
+            "label": "latest_pending_products",
+            "translation": "Produk Terbaru yang Tertunda"
+        },
+        {
+            "label": "latest_posts",
+            "translation": "Postingan Terbaru"
+        },
+        {
+            "label": "latest_products",
+            "translation": "Produk Terbaru"
+        },
+        {
+            "label": "latest_reviews",
+            "translation": "Ulasan Terbaru"
+        },
+        {
+            "label": "latest_sales",
+            "translation": "Penjualan Terbaru"
+        },
+        {
+            "label": "latest_transactions",
+            "translation": "Transaksi Terkini"
+        },
+        {
+            "label": "leave_message",
+            "translation": "Tinggalkan Pesan"
+        },
+        {
+            "label": "left",
+            "translation": "Kiri"
+        },
+        {
+            "label": "left_to_right",
+            "translation": "Kiri ke Kanan (LTR)"
+        },
+        {
+            "label": "length",
+            "translation": "Panjangnya"
+        },
+        {
+            "label": "length_of_text",
+            "translation": "Panjang Teks"
+        },
+        {
+            "label": "license_certificate",
+            "translation": "Sertifikat Lisensi"
+        },
+        {
+            "label": "license_key",
+            "translation": "Kunci Lisensi"
+        },
+        {
+            "label": "license_keys",
+            "translation": "Kunci Lisensi"
+        },
+        {
+            "label": "license_keys_system_exp",
+            "translation": "Tambahkan semua kunci lisensi Anda dari sini. Sistem akan secara otomatis memberikan kunci lisensi kepada setiap pembeli."
+        },
+        {
+            "label": "link",
+            "translation": "Tautan"
+        },
+        {
+            "label": "linkedin_url",
+            "translation": "URL tertaut"
+        },
+        {
+            "label": "listing_type",
+            "translation": "Jenis Daftar"
+        },
+        {
+            "label": "live_preview",
+            "translation": "Pratinjau Langsung"
+        },
+        {
+            "label": "load_more",
+            "translation": "Muat Lebih Banyak"
+        },
+        {
+            "label": "load_more_comments",
+            "translation": "Muat lebih banyak komentar"
+        },
+        {
+            "label": "load_more_reviews",
+            "translation": "Muat lebih banyak ulasan"
+        },
+        {
+            "label": "loading",
+            "translation": "Memuat..."
+        },
+        {
+            "label": "loading_payment_options",
+            "translation": "Memuat opsi pembayaran..."
+        },
+        {
+            "label": "local_pickup",
+            "translation": "Penjemputan Lokal"
+        },
+        {
+            "label": "local_pickup_cost",
+            "translation": "Biaya Penjemputan Lokal"
+        },
+        {
+            "label": "local_pickup_exp",
+            "translation": "Ambil pesanan Anda langsung dari toko"
+        },
+        {
+            "label": "local_storage",
+            "translation": "Penyimpanan Lokal"
+        },
+        {
+            "label": "local_storage_exp",
+            "translation": "Tidak perlu memasukkan pengaturan API tambahan untuk Penyimpanan Lokal. File yang diunggah dihosting langsung di server Anda."
+        },
+        {
+            "label": "location",
+            "translation": "Lokasi"
+        },
+        {
+            "label": "login",
+            "translation": "Masuk"
+        },
+        {
+            "label": "login_error",
+            "translation": "Email atau kata sandi salah!"
+        },
+        {
+            "label": "login_to_user_account_exp",
+            "translation": "Sesi Anda saat ini akan dihentikan dan sesi baru akan dibuat untuk akun pengguna yang Anda pilih."
+        },
+        {
+            "label": "login_with_email",
+            "translation": "Atau masuk dengan email"
+        },
+        {
+            "label": "logo",
+            "translation": "logo"
+        },
+        {
+            "label": "logo_email",
+            "translation": "Logo Email"
+        },
+        {
+            "label": "logo_size",
+            "translation": "Ukuran Logo"
+        },
+        {
+            "label": "logout",
+            "translation": "Keluar"
+        },
+        {
+            "label": "long",
+            "translation": "Panjang"
+        },
+        {
+            "label": "lowest_price",
+            "translation": "Harga Terendah"
+        },
+        {
+            "label": "mail",
+            "translation": "Surat"
+        },
+        {
+            "label": "mail_host",
+            "translation": "Tuan Rumah Surat"
+        },
+        {
+            "label": "mail_is_being_sent",
+            "translation": "Surat sedang dikirim. Mohon jangan tutup halaman ini sampai prosesnya selesai!"
+        },
+        {
+            "label": "mail_password",
+            "translation": "Kata Sandi Surat"
+        },
+        {
+            "label": "mail_port",
+            "translation": "Pelabuhan Surat"
+        },
+        {
+            "label": "mail_protocol",
+            "translation": "Protokol Surat"
+        },
+        {
+            "label": "mail_service",
+            "translation": "Layanan Surat"
+        },
+        {
+            "label": "mail_title",
+            "translation": "Judul Surat"
+        },
+        {
+            "label": "mail_username",
+            "translation": "Nama Pengguna Email"
+        },
+        {
+            "label": "main",
+            "translation": "utama"
+        },
+        {
+            "label": "main_files",
+            "translation": "File Utama"
+        },
+        {
+            "label": "main_menu",
+            "translation": "Menu Utama"
+        },
+        {
+            "label": "maintenance_mode",
+            "translation": "Modus Pemeliharaan"
+        },
+        {
+            "label": "manage_images",
+            "translation": "Kelola Gambar"
+        },
+        {
+            "label": "management_tools",
+            "translation": "Alat Manajemen"
+        },
+        {
+            "label": "march",
+            "translation": "bulan Maret"
+        },
+        {
+            "label": "marketplace",
+            "translation": "Pasar"
+        },
+        {
+            "label": "marketplace_selling_product_on_the_site",
+            "translation": "Marketplace (Menjual Produk di Situs)"
+        },
+        {
+            "label": "max",
+            "translation": "Maks"
+        },
+        {
+            "label": "max_file_size",
+            "translation": "Ukuran File Maks"
+        },
+        {
+            "label": "max_weight",
+            "translation": "Berat Maks"
+        },
+        {
+            "label": "may",
+            "translation": "Mei"
+        },
+        {
+            "label": "medium",
+            "translation": "Sedang"
+        },
+        {
+            "label": "member",
+            "translation": "Anggota"
+        },
+        {
+            "label": "member_since",
+            "translation": "Anggota sejak itu"
+        },
+        {
+            "label": "members",
+            "translation": "Anggota"
+        },
+        {
+            "label": "membership",
+            "translation": "Keanggotaan"
+        },
+        {
+            "label": "membership_number_of_ads",
+            "translation": "Jumlah Iklan Aktif"
+        },
+        {
+            "label": "membership_payments",
+            "translation": "Pembayaran Keanggotaan"
+        },
+        {
+            "label": "membership_plan",
+            "translation": "Rencana Keanggotaan"
+        },
+        {
+            "label": "membership_plan_payment",
+            "translation": "Pembayaran Paket Keanggotaan"
+        },
+        {
+            "label": "membership_plans",
+            "translation": "Rencana Keanggotaan"
+        },
+        {
+            "label": "menu_limit",
+            "translation": "Batas Menu"
+        },
+        {
+            "label": "message",
+            "translation": "Pesan"
+        },
+        {
+            "label": "messages",
+            "translation": "Pesan"
+        },
+        {
+            "label": "meta_description",
+            "translation": "Deskripsi Meta"
+        },
+        {
+            "label": "meta_keywords",
+            "translation": "Kata Kunci Meta"
+        },
+        {
+            "label": "meta_tag",
+            "translation": "Tag Meta"
+        },
+        {
+            "label": "meta_title",
+            "translation": "Judul Meta"
+        },
+        {
+            "label": "method_name",
+            "translation": "Nama Metode"
+        },
+        {
+            "label": "mgs_reject_open_shop",
+            "translation": "Permintaan Anda untuk membuka toko telah ditolak!"
+        },
+        {
+            "label": "mgs_reject_open_shop_permanently",
+            "translation": "Permintaan Anda untuk membuka toko telah ditolak secara permanen!"
+        },
+        {
+            "label": "midtrans",
+            "translation": "Trans tengah"
+        },
+        {
+            "label": "min",
+            "translation": "Minimal"
+        },
+        {
+            "label": "min_poyout_amount",
+            "translation": "Jumlah pembayaran minimum"
+        },
+        {
+            "label": "min_poyout_amounts",
+            "translation": "Jumlah Pembayaran Minimum"
+        },
+        {
+            "label": "min_weight",
+            "translation": "Berat Minimal"
+        },
+        {
+            "label": "minimum_deposit_amount",
+            "translation": "Jumlah Setoran Minimum"
+        },
+        {
+            "label": "minimum_order_amount",
+            "translation": "Jumlah pesanan minimum"
+        },
+        {
+            "label": "minute_ago",
+            "translation": "menit yang lalu"
+        },
+        {
+            "label": "minutes_ago",
+            "translation": "beberapa menit yang lalu"
+        },
+        {
+            "label": "mode",
+            "translation": "Modus"
+        },
+        {
+            "label": "model",
+            "translation": "Model"
+        },
+        {
+            "label": "monday",
+            "translation": "Senin"
+        },
+        {
+            "label": "month",
+            "translation": "Bulan"
+        },
+        {
+            "label": "month_ago",
+            "translation": "bulan yang lalu"
+        },
+        {
+            "label": "month_count",
+            "translation": "Jumlah Bulan"
+        },
+        {
+            "label": "monthly",
+            "translation": "Bulanan"
+        },
+        {
+            "label": "monthly_plan",
+            "translation": "Paket Bulanan"
+        },
+        {
+            "label": "monthly_sales",
+            "translation": "Penjualan bulanan"
+        },
+        {
+            "label": "months_ago",
+            "translation": "bulan yang lalu"
+        },
+        {
+            "label": "more",
+            "translation": "Lebih lanjut"
+        },
+        {
+            "label": "more_from",
+            "translation": "Lebih lanjut dari"
+        },
+        {
+            "label": "most_recent",
+            "translation": "Terbaru"
+        },
+        {
+            "label": "most_viewed_products",
+            "translation": "Produk Paling Banyak Dilihat"
+        },
+        {
+            "label": "msg_accept_terms",
+            "translation": "Anda harus menerima persyaratannya!"
+        },
+        {
+            "label": "msg_add_license_keys",
+            "translation": "Kunci lisensi berhasil ditambahkan!"
+        },
+        {
+            "label": "msg_add_product_success",
+            "translation": "Pembayaran Anda telah berhasil diselesaikan! Setelah produk Anda disetujui, produk tersebut akan dipublikasikan di situs kami!"
+        },
+        {
+            "label": "msg_added",
+            "translation": "Barang berhasil ditambahkan!"
+        },
+        {
+            "label": "msg_administrator_added",
+            "translation": "Administrator berhasil ditambahkan!"
+        },
+        {
+            "label": "msg_ban_error",
+            "translation": "Akun Anda telah ditangguhkan!"
+        },
+        {
+            "label": "msg_bank_transfer_text",
+            "translation": "Setelah Anda melakukan pemesanan, Anda dapat melakukan pembayaran ke salah satu rekening bank ini. Silakan tambahkan nomor pesanan Anda ke deskripsi pembayaran Anda."
+        },
+        {
+            "label": "msg_bank_transfer_text_order_completed",
+            "translation": "Anda dapat melakukan pembayaran ke salah satu rekening bank ini. Silakan tambahkan nomor pesanan Anda ke deskripsi pembayaran Anda."
+        },
+        {
+            "label": "msg_bank_transfer_text_transaction_completed",
+            "translation": "Anda dapat melakukan pembayaran ke salah satu rekening bank ini. Silakan tambahkan nomor transaksi Anda pada deskripsi pembayaran Anda."
+        },
+        {
+            "label": "msg_bot_verification_failed",
+            "translation": "Verifikasi bot gagal. Silakan coba lagi."
+        },
+        {
+            "label": "msg_cart_login_error",
+            "translation": "Silakan masuk untuk menyelesaikan pembelian Anda!"
+        },
+        {
+            "label": "msg_cart_select_location",
+            "translation": "Silakan pilih lokasi Anda untuk melanjutkan pembelian Anda."
+        },
+        {
+            "label": "msg_cart_shipping",
+            "translation": "Silakan masukkan alamat pengiriman Anda dan pilih metode pengiriman!"
+        },
+        {
+            "label": "msg_change_password_error",
+            "translation": "Ada masalah saat mengubah kata sandi Anda!"
+        },
+        {
+            "label": "msg_change_password_success",
+            "translation": "Kata sandi Anda telah berhasil diubah!"
+        },
+        {
+            "label": "msg_change_product_option_type",
+            "translation": "Mengubah jenis opsi akan menghapus semua nilai/varian yang ada untuk opsi ini. Apakah Anda yakin ingin melanjutkan?"
+        },
+        {
+            "label": "msg_comment_approved",
+            "translation": "Komentar berhasil disetujui!"
+        },
+        {
+            "label": "msg_comment_deleted",
+            "translation": "Komentar berhasil dihapus!"
+        },
+        {
+            "label": "msg_comment_sent_successfully",
+            "translation": "Komentar Anda telah dikirim. Ini akan dipublikasikan setelah ditinjau oleh manajemen situs."
+        },
+        {
+            "label": "msg_complete_payment",
+            "translation": "Silakan klik tombol di bawah ini untuk menyelesaikan pembayaran."
+        },
+        {
+            "label": "msg_confirmation_email",
+            "translation": "Silakan klik tombol di bawah untuk mengonfirmasi akun Anda."
+        },
+        {
+            "label": "msg_confirmed",
+            "translation": "Alamat email Anda telah berhasil dikonfirmasi!"
+        },
+        {
+            "label": "msg_confirmed_required",
+            "translation": "Untuk masuk ke situs, Anda harus mengkonfirmasi alamat email Anda."
+        },
+        {
+            "label": "msg_contact_error",
+            "translation": "Ada masalah saat mengirim pesan Anda!"
+        },
+        {
+            "label": "msg_coupon_auth",
+            "translation": "Kupon ini hanya untuk anggota terdaftar!"
+        },
+        {
+            "label": "msg_coupon_cart_total",
+            "translation": "Total keranjang Anda tidak cukup untuk menggunakan kupon ini. Total keranjang minimum:"
+        },
+        {
+            "label": "msg_coupon_code_added_before",
+            "translation": "Kode kupon ini telah ditambahkan sebelumnya. Silakan tambahkan kode kupon lainnya."
+        },
+        {
+            "label": "msg_coupon_limit",
+            "translation": "Batas penggunaan kupon telah tercapai!"
+        },
+        {
+            "label": "msg_coupon_used",
+            "translation": "Kode kupon ini telah digunakan sebelumnya!"
+        },
+        {
+            "label": "msg_cron_sitemap",
+            "translation": "Dengan URL ini Anda dapat memperbarui peta situs Anda secara otomatis."
+        },
+        {
+            "label": "msg_default_language_delete",
+            "translation": "Bahasa default tidak dapat dihapus!"
+        },
+        {
+            "label": "msg_default_page_delete",
+            "translation": "Halaman default tidak dapat dihapus!"
+        },
+        {
+            "label": "msg_default_variant",
+            "translation": "Varian default akan otomatis menggunakan harga utama produk, harga diskon, jumlah stok dan berat."
+        },
+        {
+            "label": "msg_delete_posts",
+            "translation": "Harap hapus postingan yang termasuk dalam kategori ini terlebih dahulu!"
+        },
+        {
+            "label": "msg_delete_subcategories",
+            "translation": "Harap hapus subkategori yang termasuk dalam kategori ini terlebih dahulu!"
+        },
+        {
+            "label": "msg_deleted",
+            "translation": "Barang berhasil dihapus!"
+        },
+        {
+            "label": "msg_digital_product_register_error",
+            "translation": "Anda harus membuat akun untuk membeli produk digital."
+        },
+        {
+            "label": "msg_dont_have_downloadable_files",
+            "translation": "Anda tidak memiliki file apa pun yang dapat diunduh."
+        },
+        {
+            "label": "msg_email_address_blocked",
+            "translation": "Alamat email ini tidak dapat digunakan di situs ini. Silakan hubungi administrator situs jika Anda yakin ini adalah kesalahan."
+        },
+        {
+            "label": "msg_email_sent",
+            "translation": "Email berhasil terkirim!"
+        },
+        {
+            "label": "msg_email_unique_error",
+            "translation": "Email sudah diambil."
+        },
+        {
+            "label": "msg_error",
+            "translation": "Terjadi kesalahan, silakan coba lagi!"
+        },
+        {
+            "label": "msg_error_product_type",
+            "translation": "Anda harus mengaktifkan setidaknya satu jenis produk"
+        },
+        {
+            "label": "msg_error_selected_system",
+            "translation": "Anda harus mengaktifkan setidaknya satu sistem"
+        },
+        {
+            "label": "msg_error_sku",
+            "translation": "SKU ini digunakan untuk produk Anda yang lain!"
+        },
+        {
+            "label": "msg_expired_plan",
+            "translation": "Ketika paket Anda habis masa berlakunya, jika Anda tidak memperbarui paket dalam waktu 3 hari, iklan Anda akan ditambahkan ke bagian \"Produk Kedaluwarsa\" dan tidak akan ditampilkan di situs."
+        },
+        {
+            "label": "msg_insufficient_balance",
+            "translation": "Saldo tidak mencukupi!"
+        },
+        {
+            "label": "msg_invalid_coupon",
+            "translation": "Kode kupon ini tidak valid atau telah kedaluwarsa!"
+        },
+        {
+            "label": "msg_invalid_email",
+            "translation": "Alamat email tidak valid!"
+        },
+        {
+            "label": "msg_membership_activated",
+            "translation": "Paket keanggotaan Anda telah berhasil diaktifkan!"
+        },
+        {
+            "label": "msg_membership_renewed",
+            "translation": "Paket keanggotaan Anda telah berhasil diperbarui!"
+        },
+        {
+            "label": "msg_message_deleted",
+            "translation": "Pesan berhasil dihapus!"
+        },
+        {
+            "label": "msg_message_sent",
+            "translation": "Pesan Anda telah berhasil terkirim!"
+        },
+        {
+            "label": "msg_message_sent_error",
+            "translation": "Anda tidak dapat mengirim pesan ke diri Anda sendiri!"
+        },
+        {
+            "label": "msg_newsletter_error",
+            "translation": "Alamat email Anda sudah terdaftar!"
+        },
+        {
+            "label": "msg_newsletter_success",
+            "translation": "Alamat email Anda telah berhasil ditambahkan!"
+        },
+        {
+            "label": "msg_option_exists",
+            "translation": "Opsi ini sudah ada!"
+        },
+        {
+            "label": "msg_order_completed",
+            "translation": "Pesanan Anda telah berhasil diselesaikan!"
+        },
+        {
+            "label": "msg_payment_completed",
+            "translation": "Pembayaran berhasil diselesaikan!"
+        },
+        {
+            "label": "msg_payment_database_error",
+            "translation": "Pembayaran Anda telah berhasil diselesaikan, namun ada masalah saat menambahkan pesanan ke database! Silakan hubungi manajemen situs kami untuk pesanan ini!"
+        },
+        {
+            "label": "msg_payment_error",
+            "translation": "Terjadi kesalahan saat pembayaran!"
+        },
+        {
+            "label": "msg_payment_success",
+            "translation": "Pembayaran Anda telah berhasil diselesaikan!"
+        },
+        {
+            "label": "msg_payout_bitcoin_address_error",
+            "translation": "Anda harus memasukkan alamat BTC Anda untuk melakukan permintaan pembayaran ini"
+        },
+        {
+            "label": "msg_payout_paypal_error",
+            "translation": "Anda harus memasukkan alamat email PayPal Anda untuk melakukan permintaan pembayaran ini"
+        },
+        {
+            "label": "msg_plan_expired",
+            "translation": "Paket keanggotaan Anda telah kedaluwarsa!"
+        },
+        {
+            "label": "msg_processing_coupon_assignments",
+            "translation": "Memproses penetapan kupon. Tolong jangan tutup jendela ini."
+        },
+        {
+            "label": "msg_product_already_purchased",
+            "translation": "Anda sudah pernah membeli produk ini sebelumnya."
+        },
+        {
+            "label": "msg_product_approved",
+            "translation": "Produk berhasil disetujui!"
+        },
+        {
+            "label": "msg_product_slug_used",
+            "translation": "Siput ini digunakan oleh produk lain!"
+        },
+        {
+            "label": "msg_promote_bank_transfer_text",
+            "translation": "Setelah Anda melakukan pemesanan, Anda dapat melakukan pembayaran ke salah satu rekening bank ini. Silakan tambahkan nomor transaksi Anda pada deskripsi pembayaran Anda."
+        },
+        {
+            "label": "msg_quote_request_error",
+            "translation": "Anda tidak dapat meminta penawaran untuk item Anda sendiri!"
+        },
+        {
+            "label": "msg_quote_request_sent",
+            "translation": "Permintaan Anda telah berhasil dikirimkan."
+        },
+        {
+            "label": "msg_reached_ads_limit",
+            "translation": "Anda telah mencapai batas penambahan iklan! Jika Anda ingin menambahkan lebih banyak iklan, Anda dapat meningkatkan paket Anda saat ini dengan mengklik tombol di bawah."
+        },
+        {
+            "label": "msg_refund_request_email",
+            "translation": "Anda telah menerima permintaan pengembalian dana. Silakan klik tombol di bawah ini untuk melihat detailnya."
+        },
+        {
+            "label": "msg_refund_request_update_email",
+            "translation": "Ada pembaruan untuk permintaan pengembalian dana Anda. Silakan klik tombol di bawah ini untuk melihat detailnya."
+        },
+        {
+            "label": "msg_register_success",
+            "translation": "Akun Anda telah berhasil dibuat!"
+        },
+        {
+            "label": "msg_request_received",
+            "translation": "Permintaan Anda telah diterima!"
+        },
+        {
+            "label": "msg_request_sent",
+            "translation": "Permintaan telah berhasil dikirim!"
+        },
+        {
+            "label": "msg_reset_cache",
+            "translation": "Semua file cache telah dihapus!"
+        },
+        {
+            "label": "msg_reset_password_error",
+            "translation": "Kami tidak dapat menemukan pengguna dengan alamat email itu!"
+        },
+        {
+            "label": "msg_reset_password_success",
+            "translation": "Kami telah mengirimkan email untuk mengatur ulang kata sandi Anda ke alamat email Anda. Silakan periksa email Anda untuk langkah selanjutnya."
+        },
+        {
+            "label": "msg_review_added",
+            "translation": "Ulasan Anda telah berhasil ditambahkan!"
+        },
+        {
+            "label": "msg_review_deleted",
+            "translation": "Ulasan berhasil dihapus!"
+        },
+        {
+            "label": "msg_send_confirmation_email",
+            "translation": "Email aktivasi telah dikirim ke alamat email Anda. Harap konfirmasi akun Anda."
+        },
+        {
+            "label": "msg_shop_name_unique_error",
+            "translation": "Nama toko sudah diambil."
+        },
+        {
+            "label": "msg_shop_opening_requests",
+            "translation": "Permintaan Anda untuk membuka toko sedang dalam evaluasi!"
+        },
+        {
+            "label": "msg_sitemap_updated",
+            "translation": "Peta Situs berhasil diperbarui!"
+        },
+        {
+            "label": "msg_slug_unique_error",
+            "translation": "Siput sudah diambil."
+        },
+        {
+            "label": "msg_start_selling",
+            "translation": "Kami telah menerima permintaan Anda. Toko Anda akan buka ketika permintaan Anda disetujui."
+        },
+        {
+            "label": "msg_subscriber_deleted",
+            "translation": "Pelanggan berhasil dihapus!"
+        },
+        {
+            "label": "msg_support_message_received",
+            "translation": "Pesan Dukungan Anda telah Diterima"
+        },
+        {
+            "label": "msg_support_message_received_exp",
+            "translation": "Terima kasih telah menghubungi kami. Kami telah menerima pesan dukungan Anda dan akan segera menghubungi Anda kembali."
+        },
+        {
+            "label": "msg_support_message_replied",
+            "translation": "Tiket Dukungan Anda Telah Dibalas"
+        },
+        {
+            "label": "msg_support_message_replied_exp",
+            "translation": "Silakan klik tombol di bawah untuk melihat detail tiket."
+        },
+        {
+            "label": "msg_support_new_message",
+            "translation": "Pesan Dukungan Baru"
+        },
+        {
+            "label": "msg_tag_exists",
+            "translation": "Tag ini sudah ada!"
+        },
+        {
+            "label": "msg_topic_empty",
+            "translation": "Topik tidak boleh kosong!"
+        },
+        {
+            "label": "msg_unsubscribe",
+            "translation": "Anda tidak akan lagi menerima email dari kami!"
+        },
+        {
+            "label": "msg_updated",
+            "translation": "Perubahan berhasil disimpan!"
+        },
+        {
+            "label": "msg_username_unique_error",
+            "translation": "Nama pengguna telah diambil."
+        },
+        {
+            "label": "msg_vendor_membership_plan_expired",
+            "translation": "Paket keanggotaan Anda telah kedaluwarsa, sehingga produk Anda tidak lagi dipublikasikan di situs. Jika Anda ingin produk Anda terus dipublikasikan di situs, harap perbarui paket keanggotaan Anda."
+        },
+        {
+            "label": "msg_verification_required",
+            "translation": "Verifikasi diperlukan."
+        },
+        {
+            "label": "msg_wrong_old_password",
+            "translation": "Kata sandi lama salah!"
+        },
+        {
+            "label": "multi_select",
+            "translation": "Multi Pilih"
+        },
+        {
+            "label": "multi_vendor_system",
+            "translation": "Sistem Multi-Vendor"
+        },
+        {
+            "label": "multi_vendor_system_exp",
+            "translation": "Jika Anda menonaktifkannya, hanya Admin yang dapat menambahkan produk."
+        },
+        {
+            "label": "multilingual_system",
+            "translation": "Sistem Multibahasa"
+        },
+        {
+            "label": "multiple_sale",
+            "translation": "Penjualan Berganda"
+        },
+        {
+            "label": "multiple_sale_option_1",
+            "translation": "Ya, saya ingin menjual produk ini ke lebih dari satu pelanggan"
+        },
+        {
+            "label": "multiple_sale_option_2",
+            "translation": "Tidak, saya ingin menjual produk ini ke satu pelanggan"
+        },
+        {
+            "label": "my_account",
+            "translation": "Akun Saya"
+        },
+        {
+            "label": "my_cart",
+            "translation": "Keranjang Saya"
+        },
+        {
+            "label": "my_coupons",
+            "translation": "Kupon saya"
+        },
+        {
+            "label": "my_reviews",
+            "translation": "Ulasan Saya"
+        },
+        {
+            "label": "name",
+            "translation": "Nama"
+        },
+        {
+            "label": "name_on_the_card",
+            "translation": "Nama di Kartu"
+        },
+        {
+            "label": "navigation",
+            "translation": "Navigasi"
+        },
+        {
+            "label": "navigation_template",
+            "translation": "Templat Navigasi"
+        },
+        {
+            "label": "need_more_help",
+            "translation": "Butuh bantuan lebih lanjut?"
+        },
+        {
+            "label": "never",
+            "translation": "Tidak pernah"
+        },
+        {
+            "label": "new",
+            "translation": "Baru"
+        },
+        {
+            "label": "new_arrivals",
+            "translation": "Pendatang Baru"
+        },
+        {
+            "label": "new_message",
+            "translation": "Baru"
+        },
+        {
+            "label": "new_password",
+            "translation": "Kata Sandi Baru"
+        },
+        {
+            "label": "new_payout_request",
+            "translation": "Permintaan Pembayaran Baru"
+        },
+        {
+            "label": "new_quote_request",
+            "translation": "Permintaan Penawaran Baru"
+        },
+        {
+            "label": "newsletter",
+            "translation": "Buletin"
+        },
+        {
+            "label": "newsletter_desc",
+            "translation": "Bergabunglah dengan daftar pelanggan kami untuk mendapatkan berita terkini, update dan penawaran khusus langsung di kotak masuk Anda"
+        },
+        {
+            "label": "newsletter_popup",
+            "translation": "Munculan Buletin"
+        },
+        {
+            "label": "newsletter_send_many_exp",
+            "translation": "Beberapa server tidak mengizinkan pengiriman massal. Oleh karena itu, daripada mengirimkan email Anda ke semua pelanggan sekaligus, Anda dapat mengirimkannya sebagian demi sebagian (Contoh: 50 pelanggan sekaligus). Jika server email Anda berhenti mengirim email, proses pengiriman juga akan berhenti."
+        },
+        {
+            "label": "next",
+            "translation": "Selanjutnya"
+        },
+        {
+            "label": "no",
+            "translation": "Tidak"
+        },
+        {
+            "label": "no_comments_found",
+            "translation": "Tidak ada komentar yang ditemukan untuk produk ini. Jadilah yang pertama berkomentar!"
+        },
+        {
+            "label": "no_delivery_is_made_to_address",
+            "translation": "Tidak ada pengiriman yang dilakukan ke alamat yang Anda pilih."
+        },
+        {
+            "label": "no_delivery_this_location",
+            "translation": "Tidak ada pengiriman ke lokasi ini"
+        },
+        {
+            "label": "no_discount",
+            "translation": "Tidak Ada Diskon"
+        },
+        {
+            "label": "no_members_found",
+            "translation": "Tidak ada anggota yang ditemukan!"
+        },
+        {
+            "label": "no_messages_found",
+            "translation": "Tidak ada pesan yang ditemukan!"
+        },
+        {
+            "label": "no_products_found",
+            "translation": "Tidak ada produk yang ditemukan!"
+        },
+        {
+            "label": "no_records_found",
+            "translation": "Tidak ada catatan yang ditemukan!"
+        },
+        {
+            "label": "no_results_found",
+            "translation": "Tidak Ada Hasil yang Ditemukan!"
+        },
+        {
+            "label": "no_reviews_found",
+            "translation": "Tidak ada ulasan yang ditemukan!"
+        },
+        {
+            "label": "no_vat",
+            "translation": "Tidak ada PPN"
+        },
+        {
+            "label": "none",
+            "translation": "Tidak ada"
+        },
+        {
+            "label": "not_added_shipping_address",
+            "translation": "Anda belum menambahkan alamat pengiriman."
+        },
+        {
+            "label": "not_added_vendor_balance",
+            "translation": "Tidak Ditambahkan ke Saldo Vendor"
+        },
+        {
+            "label": "november",
+            "translation": "November"
+        },
+        {
+            "label": "num_articles",
+            "translation": "{field} Artikel"
+        },
+        {
+            "label": "number",
+            "translation": "Nomor"
+        },
+        {
+            "label": "number_featured_products",
+            "translation": "Jumlah Produk Unggulan untuk Ditampilkan"
+        },
+        {
+            "label": "number_input",
+            "translation": "Masukan Nomor"
+        },
+        {
+            "label": "number_latest_products",
+            "translation": "Jumlah Produk Terbaru yang Ditampilkan"
+        },
+        {
+            "label": "number_of_ads",
+            "translation": "Jumlah Iklan"
+        },
+        {
+            "label": "number_of_coupons",
+            "translation": "Jumlah Kupon"
+        },
+        {
+            "label": "number_of_coupons_exp",
+            "translation": "Berapa kali kupon dapat digunakan oleh semua pelanggan sebelum menjadi tidak valid"
+        },
+        {
+            "label": "number_of_days",
+            "translation": "Jumlah Hari"
+        },
+        {
+            "label": "number_of_entries",
+            "translation": "Jumlah Entri"
+        },
+        {
+            "label": "number_of_links_in_menu",
+            "translation": "Jumlah link yang muncul di menu"
+        },
+        {
+            "label": "number_of_results",
+            "translation": "Jumlah Hasil"
+        },
+        {
+            "label": "number_of_total_sales",
+            "translation": "Jumlah total penjualan"
+        },
+        {
+            "label": "number_remaining_ads",
+            "translation": "Jumlah Iklan yang Tersisa"
+        },
+        {
+            "label": "number_short_billion",
+            "translation": "b"
+        },
+        {
+            "label": "number_short_million",
+            "translation": "m"
+        },
+        {
+            "label": "number_short_thousand",
+            "translation": "k"
+        },
+        {
+            "label": "october",
+            "translation": "Oktober"
+        },
+        {
+            "label": "offline",
+            "translation": "Luring"
+        },
+        {
+            "label": "ok",
+            "translation": "Oke"
+        },
+        {
+            "label": "old_password",
+            "translation": "Kata Sandi Lama"
+        },
+        {
+            "label": "online",
+            "translation": "Daring"
+        },
+        {
+            "label": "only_affiliate_sellers",
+            "translation": "Hanya Penjual Afiliasi"
+        },
+        {
+            "label": "open",
+            "translation": "Buka"
+        },
+        {
+            "label": "open_user_shop",
+            "translation": "Buka Toko Pengguna"
+        },
+        {
+            "label": "option",
+            "translation": "Pilihan"
+        },
+        {
+            "label": "option_name",
+            "translation": "Nama Opsi"
+        },
+        {
+            "label": "option_name_placeholder",
+            "translation": "misalnya Warna, Ukuran"
+        },
+        {
+            "label": "option_type",
+            "translation": "Jenis Opsi"
+        },
+        {
+            "label": "optional",
+            "translation": "Opsional"
+        },
+        {
+            "label": "options",
+            "translation": "Pilihan"
+        },
+        {
+            "label": "order",
+            "translation": "Memesan"
+        },
+        {
+            "label": "order_details",
+            "translation": "Detail Pesanan"
+        },
+        {
+            "label": "order_has_been_shipped",
+            "translation": "Pesanan telah dikirim!"
+        },
+        {
+            "label": "order_id",
+            "translation": "Nomor Pesanan"
+        },
+        {
+            "label": "order_information",
+            "translation": "Informasi Pemesanan"
+        },
+        {
+            "label": "order_not_yet_shipped",
+            "translation": "Pesanan belum dikirim."
+        },
+        {
+            "label": "order_number",
+            "translation": "Nomor Pesanan"
+        },
+        {
+            "label": "order_processing",
+            "translation": "Pemrosesan"
+        },
+        {
+            "label": "order_summary",
+            "translation": "Ringkasan Pesanan"
+        },
+        {
+            "label": "orders",
+            "translation": "Pesanan"
+        },
+        {
+            "label": "ordinary_listing",
+            "translation": "Daftar Biasa"
+        },
+        {
+            "label": "out_of_stock",
+            "translation": "Kehabisan Stok"
+        },
+        {
+            "label": "page_not_found",
+            "translation": "Halaman tidak ditemukan"
+        },
+        {
+            "label": "page_not_found_sub",
+            "translation": "Halaman yang Anda cari tidak ada."
+        },
+        {
+            "label": "page_type",
+            "translation": "Jenis Halaman"
+        },
+        {
+            "label": "page_views",
+            "translation": "Tampilan Halaman"
+        },
+        {
+            "label": "pages",
+            "translation": "Halaman"
+        },
+        {
+            "label": "pagination_product",
+            "translation": "Pagination (Jumlah produk di setiap halaman)"
+        },
+        {
+            "label": "paid",
+            "translation": "Dibayar"
+        },
+        {
+            "label": "panel",
+            "translation": "Panel"
+        },
+        {
+            "label": "parent",
+            "translation": "Orang tua"
+        },
+        {
+            "label": "parent_category",
+            "translation": "Kategori Induk"
+        },
+        {
+            "label": "password",
+            "translation": "Kata sandi"
+        },
+        {
+            "label": "password_confirm",
+            "translation": "Konfirmasi Kata Sandi"
+        },
+        {
+            "label": "password_reset",
+            "translation": "Reset Kata Sandi"
+        },
+        {
+            "label": "paste_ad_code",
+            "translation": "Tempel Kode Iklan"
+        },
+        {
+            "label": "paste_ad_url",
+            "translation": "Tempel URL Iklan"
+        },
+        {
+            "label": "pay",
+            "translation": "Bayar"
+        },
+        {
+            "label": "pay_now",
+            "translation": "Bayar Sekarang"
+        },
+        {
+            "label": "pay_wallet_balance_exp",
+            "translation": "Bayar dengan saldo dompet Anda"
+        },
+        {
+            "label": "pay_wallet_balance_warning",
+            "translation": "Jumlah pesanan akan dipotong dari saldo dompet Anda. Jika Anda menyetujuinya, silakan klik tombol di bawah ini untuk menyelesaikan pembelian."
+        },
+        {
+            "label": "payer_email",
+            "translation": "Email Pembayar"
+        },
+        {
+            "label": "paying_wallet_balance",
+            "translation": "Membayar dengan Saldo Dompet"
+        },
+        {
+            "label": "payment",
+            "translation": "Pembayaran"
+        },
+        {
+            "label": "payment_amount",
+            "translation": "Jumlah Pembayaran"
+        },
+        {
+            "label": "payment_cancelled",
+            "translation": "Pembayaran telah dibatalkan!"
+        },
+        {
+            "label": "payment_details",
+            "translation": "Detail Pembayaran"
+        },
+        {
+            "label": "payment_id",
+            "translation": "Nomor Pembayaran"
+        },
+        {
+            "label": "payment_method",
+            "translation": "Metode Pembayaran"
+        },
+        {
+            "label": "payment_note",
+            "translation": "Catatan Pembayaran"
+        },
+        {
+            "label": "payment_option_load_error",
+            "translation": "Metode pembayaran yang dipilih saat ini tidak tersedia. Silakan pilih metode lain atau coba lagi nanti."
+        },
+        {
+            "label": "payment_received",
+            "translation": "Pembayaran Diterima"
+        },
+        {
+            "label": "payment_settings",
+            "translation": "Pengaturan Pembayaran"
+        },
+        {
+            "label": "payment_status",
+            "translation": "Status Pembayaran"
+        },
+        {
+            "label": "payments",
+            "translation": "Pembayaran"
+        },
+        {
+            "label": "payout_requests",
+            "translation": "Permintaan Pembayaran"
+        },
+        {
+            "label": "payout_settings",
+            "translation": "Pengaturan Pembayaran"
+        },
+        {
+            "label": "payouts",
+            "translation": "Pembayaran"
+        },
+        {
+            "label": "paypal",
+            "translation": "PayPal"
+        },
+        {
+            "label": "paypal_email_address",
+            "translation": "Alamat Email PayPal"
+        },
+        {
+            "label": "paystack",
+            "translation": "Tumpukan Pembayaran"
+        },
+        {
+            "label": "paytabs",
+            "translation": "PayTab"
+        },
+        {
+            "label": "pending",
+            "translation": "Tertunda"
+        },
+        {
+            "label": "pending_comments",
+            "translation": "Komentar yang Menunggu Keputusan"
+        },
+        {
+            "label": "pending_payment",
+            "translation": "Pembayaran Tertunda"
+        },
+        {
+            "label": "pending_products",
+            "translation": "Produk yang Tertunda"
+        },
+        {
+            "label": "pending_quote",
+            "translation": "Penawaran Tertunda"
+        },
+        {
+            "label": "permanently_rejected",
+            "translation": "Ditolak Secara Permanen"
+        },
+        {
+            "label": "permissions",
+            "translation": "Izin"
+        },
+        {
+            "label": "personal_website_url",
+            "translation": "URL Situs Web Pribadi"
+        },
+        {
+            "label": "phone",
+            "translation": "Telepon"
+        },
+        {
+            "label": "phone_number",
+            "translation": "Nomor Telepon"
+        },
+        {
+            "label": "physical",
+            "translation": "Fisik"
+        },
+        {
+            "label": "physical_exp",
+            "translation": "Produk nyata yang akan Anda kirimkan ke pembeli"
+        },
+        {
+            "label": "physical_products",
+            "translation": "Produk Fisik"
+        },
+        {
+            "label": "pinterest_url",
+            "translation": "URL Pinterest"
+        },
+        {
+            "label": "place_order",
+            "translation": "Tempatkan Pesanan"
+        },
+        {
+            "label": "plan_expiration_date",
+            "translation": "Tanggal Kedaluwarsa Paket"
+        },
+        {
+            "label": "play",
+            "translation": "Mainkan"
+        },
+        {
+            "label": "please_wait",
+            "translation": "Mohon tunggu..."
+        },
+        {
+            "label": "popular",
+            "translation": "Populer"
+        },
+        {
+            "label": "post_comment",
+            "translation": "Posting Komentar"
+        },
+        {
+            "label": "postal_code",
+            "translation": "Kode Pos"
+        },
+        {
+            "label": "postcode",
+            "translation": "Kode pos"
+        },
+        {
+            "label": "posts",
+            "translation": "Postingan"
+        },
+        {
+            "label": "preferences",
+            "translation": "Preferensi"
+        },
+        {
+            "label": "preview",
+            "translation": "Pratinjau"
+        },
+        {
+            "label": "price",
+            "translation": "Harga"
+        },
+        {
+            "label": "price_per_day",
+            "translation": "Harga Per Hari"
+        },
+        {
+            "label": "price_per_month",
+            "translation": "Harga Per Bulan"
+        },
+        {
+            "label": "pricing",
+            "translation": "Harga"
+        },
+        {
+            "label": "primary",
+            "translation": "Utama"
+        },
+        {
+            "label": "print",
+            "translation": "Cetak"
+        },
+        {
+            "label": "priority",
+            "translation": "Prioritas"
+        },
+        {
+            "label": "priority_exp",
+            "translation": "Prioritas URL tertentu dibandingkan halaman lain di situs yang sama"
+        },
+        {
+            "label": "processing",
+            "translation": "Memproses..."
+        },
+        {
+            "label": "product",
+            "translation": "Produk"
+        },
+        {
+            "label": "product_ad_space",
+            "translation": "Ruang Iklan Produk"
+        },
+        {
+            "label": "product_added",
+            "translation": "Produk berhasil ditambahkan!"
+        },
+        {
+            "label": "product_added_to_cart",
+            "translation": "Produk berhasil ditambahkan ke keranjang Anda!"
+        },
+        {
+            "label": "product_approval_edited_products",
+            "translation": "Persetujuan Produk untuk Produk yang Diedit"
+        },
+        {
+            "label": "product_approval_new_products",
+            "translation": "Persetujuan Produk untuk Produk Baru"
+        },
+        {
+            "label": "product_approve_published",
+            "translation": "Setelah disetujui, itu akan dipublikasikan di situs."
+        },
+        {
+            "label": "product_based_vat",
+            "translation": "PPN Berbasis Produk"
+        },
+        {
+            "label": "product_cache_system",
+            "translation": "Sistem Cache Produk"
+        },
+        {
+            "label": "product_cart_summary",
+            "translation": "Ringkasan keranjang produk"
+        },
+        {
+            "label": "product_code",
+            "translation": "Kode Produk"
+        },
+        {
+            "label": "product_comments",
+            "translation": "Komentar Produk"
+        },
+        {
+            "label": "product_details",
+            "translation": "Detail Produk"
+        },
+        {
+            "label": "product_does_not_ship_location",
+            "translation": "Produk ini tidak dikirim ke lokasi ini.\r\n"
+        },
+        {
+            "label": "product_id",
+            "translation": "ID Produk"
+        },
+        {
+            "label": "product_id_not_defined",
+            "translation": "ID Produk tidak ditentukan."
+        },
+        {
+            "label": "product_image_display_mode",
+            "translation": "Mode Tampilan Gambar Produk"
+        },
+        {
+            "label": "product_image_upload",
+            "translation": "Unggah Gambar Produk"
+        },
+        {
+            "label": "product_image_upload_limit",
+            "translation": "Batas Upload Gambar Produk"
+        },
+        {
+            "label": "product_link_structure",
+            "translation": "Struktur Tautan Produk"
+        },
+        {
+            "label": "product_location",
+            "translation": "Lokasi Produk"
+        },
+        {
+            "label": "product_location_exp",
+            "translation": "Lokasi produk opsional. Lokasi toko Anda akan ditampilkan jika Anda tidak menambahkan lokasi untuk produk Anda"
+        },
+        {
+            "label": "product_location_system",
+            "translation": "Sistem Lokasi Produk"
+        },
+        {
+            "label": "product_options",
+            "translation": "Pilihan Produk"
+        },
+        {
+            "label": "product_options_exp",
+            "translation": "Tambahkan opsi yang tersedia, seperti warna atau ukuran yang dapat dipilih pembeli saat checkout"
+        },
+        {
+            "label": "product_or_seller_profile_url",
+            "translation": "URL profil produk atau penjual"
+        },
+        {
+            "label": "product_price",
+            "translation": "Harga Produk"
+        },
+        {
+            "label": "product_promoting_payment",
+            "translation": "Pembayaran Promosi Produk"
+        },
+        {
+            "label": "product_promotion",
+            "translation": "Promosi Produk"
+        },
+        {
+            "label": "product_search_listing",
+            "translation": "Pencarian & Daftar Produk"
+        },
+        {
+            "label": "product_settings",
+            "translation": "Pengaturan Produk"
+        },
+        {
+            "label": "product_type",
+            "translation": "Jenis Produk"
+        },
+        {
+            "label": "product_url",
+            "translation": "URL Produk"
+        },
+        {
+            "label": "production",
+            "translation": "Produksi"
+        },
+        {
+            "label": "products",
+            "translation": "Produk"
+        },
+        {
+            "label": "products_ad_space",
+            "translation": "Ruang Iklan Produk"
+        },
+        {
+            "label": "products_by_category",
+            "translation": "Produk berdasarkan Kategori"
+        },
+        {
+            "label": "products_by_category_exp",
+            "translation": "Tampilkan produk berdasarkan kategori di beranda"
+        },
+        {
+            "label": "products_per_row_homepage",
+            "translation": "Produk per Baris di Beranda"
+        },
+        {
+            "label": "products_sent_different_stores",
+            "translation": "Produk Anda akan dikirim oleh toko yang berbeda."
+        },
+        {
+            "label": "profile",
+            "translation": "Profil"
+        },
+        {
+            "label": "profile_id",
+            "translation": "ID Profil"
+        },
+        {
+            "label": "profile_settings",
+            "translation": "Pengaturan Profil"
+        },
+        {
+            "label": "program_type",
+            "translation": "Jenis Program"
+        },
+        {
+            "label": "promote",
+            "translation": "Promosikan"
+        },
+        {
+            "label": "promote_plan",
+            "translation": "Promosikan Paket"
+        },
+        {
+            "label": "promote_your_product",
+            "translation": "Promosikan Produk Anda"
+        },
+        {
+            "label": "promotion_payments",
+            "translation": "Pembayaran Promosi"
+        },
+        {
+            "label": "public_coupon",
+            "translation": "Kupon Umum"
+        },
+        {
+            "label": "public_coupon_exp",
+            "translation": "Kupon publik dapat dilihat oleh semua pengguna"
+        },
+        {
+            "label": "public_key",
+            "translation": "Kunci Publik"
+        },
+        {
+            "label": "public_url",
+            "translation": "URL Publik"
+        },
+        {
+            "label": "publishable_key",
+            "translation": "Kunci yang Dapat Diterbitkan"
+        },
+        {
+            "label": "purchase",
+            "translation": "Beli"
+        },
+        {
+            "label": "purchase_code",
+            "translation": "Kode Pembelian"
+        },
+        {
+            "label": "purchased_plan",
+            "translation": "Paket yang Dibeli"
+        },
+        {
+            "label": "pwa",
+            "translation": "Aplikasi Web Progresif (PWA)"
+        },
+        {
+            "label": "quantity",
+            "translation": "Kuantitas"
+        },
+        {
+            "label": "question",
+            "translation": "Pertanyaan"
+        },
+        {
+            "label": "quote",
+            "translation": "Kutipan"
+        },
+        {
+            "label": "quote_request",
+            "translation": "Permintaan Penawaran"
+        },
+        {
+            "label": "quote_requests",
+            "translation": "Permintaan Penawaran"
+        },
+        {
+            "label": "radio_buttons",
+            "translation": "Tombol Radio"
+        },
+        {
+            "label": "rate_this_product",
+            "translation": "Nilai produk ini"
+        },
+        {
+            "label": "razorpay",
+            "translation": "pembayaran pisau cukur"
+        },
+        {
+            "label": "reason",
+            "translation": "Alasan"
+        },
+        {
+            "label": "rebuild_category_paths",
+            "translation": "Bangun kembali Jalur Kategori"
+        },
+        {
+            "label": "receipt",
+            "translation": "Tanda terima"
+        },
+        {
+            "label": "received_quote_requests",
+            "translation": "Permintaan Penawaran yang Diterima"
+        },
+        {
+            "label": "receiver",
+            "translation": "Penerima"
+        },
+        {
+            "label": "recent_chats",
+            "translation": "Obrolan Terbaru"
+        },
+        {
+            "label": "reference",
+            "translation": "Referensi"
+        },
+        {
+            "label": "reference_code",
+            "translation": "Kode Referensi"
+        },
+        {
+            "label": "referral_discount",
+            "translation": "Diskon Referensi"
+        },
+        {
+            "label": "referral_earnings",
+            "translation": "Penghasilan Referensi"
+        },
+        {
+            "label": "referrer_commission",
+            "translation": "Komisi Perujuk"
+        },
+        {
+            "label": "referrer_commission_rate",
+            "translation": "Tarif Komisi Perujuk"
+        },
+        {
+            "label": "refresh",
+            "translation": "Segarkan"
+        },
+        {
+            "label": "refresh_cache_database_changes",
+            "translation": "Refresh File Cache Saat Database Berubah"
+        },
+        {
+            "label": "refund",
+            "translation": "Pengembalian dana"
+        },
+        {
+            "label": "refund_admin_complete_exp",
+            "translation": "Untuk menyelesaikan permintaan pengembalian dana, Anda harus mengembalikan uang pembeli. Jika Anda mengklik tombol \"Setujui Pengembalian Dana\", sistem akan mengubah status pesanan menjadi \"Pengembalian Dana Disetujui\" dan memotong jumlah pesanan dari saldo penjual."
+        },
+        {
+            "label": "refund_approved",
+            "translation": "Pengembalian Dana Disetujui"
+        },
+        {
+            "label": "refund_approved_exp",
+            "translation": "Permintaan pengembalian dana Anda telah disetujui oleh penjual. Jumlah total untuk produk ini akan dikembalikan kepada Anda."
+        },
+        {
+            "label": "refund_declined_exp",
+            "translation": "Permintaan pengembalian dana Anda telah ditolak oleh penjual. Jika Anda ingin mengajukan perselisihan, Anda dapat menghubungi pengelola situs."
+        },
+        {
+            "label": "refund_reason_explain",
+            "translation": "Mengapa Anda menginginkan pengembalian dana? Jelaskan secara rinci."
+        },
+        {
+            "label": "refund_request",
+            "translation": "Permintaan Pengembalian Dana"
+        },
+        {
+            "label": "refund_requests",
+            "translation": "Permintaan Pengembalian Dana"
+        },
+        {
+            "label": "refund_system",
+            "translation": "Sistem Pengembalian Dana"
+        },
+        {
+            "label": "regenerate",
+            "translation": "Regenerasi"
+        },
+        {
+            "label": "region",
+            "translation": "Wilayah"
+        },
+        {
+            "label": "regions",
+            "translation": "Daerah"
+        },
+        {
+            "label": "register",
+            "translation": "Daftar"
+        },
+        {
+            "label": "register_with_email",
+            "translation": "Atau daftar dengan email"
+        },
+        {
+            "label": "regular",
+            "translation": "Reguler"
+        },
+        {
+            "label": "regular_listing",
+            "translation": "Daftar Reguler"
+        },
+        {
+            "label": "reject",
+            "translation": "Tolak"
+        },
+        {
+            "label": "reject_permanently",
+            "translation": "Tolak Secara Permanen"
+        },
+        {
+            "label": "reject_quote",
+            "translation": "Tolak Penawaran"
+        },
+        {
+            "label": "rejected",
+            "translation": "Ditolak"
+        },
+        {
+            "label": "rejected_quote",
+            "translation": "Penawaran yang Ditolak"
+        },
+        {
+            "label": "related_help_topics",
+            "translation": "Topik Bantuan Terkait"
+        },
+        {
+            "label": "related_posts",
+            "translation": "Posting Terkait"
+        },
+        {
+            "label": "remaining_days",
+            "translation": "Hari yang Tersisa"
+        },
+        {
+            "label": "remove",
+            "translation": "Hapus"
+        },
+        {
+            "label": "remove_from_featured",
+            "translation": "Hapus dari Unggulan"
+        },
+        {
+            "label": "remove_from_product_filters",
+            "translation": "Hapus dari Filter Produk"
+        },
+        {
+            "label": "remove_from_special_offers",
+            "translation": "Hapus dari Penawaran Khusus"
+        },
+        {
+            "label": "remove_from_wishlist",
+            "translation": "Hapus dari daftar keinginan"
+        },
+        {
+            "label": "remove_user_ban",
+            "translation": "Hapus Larangan Pengguna"
+        },
+        {
+            "label": "removed_from_affiliate_program",
+            "translation": "Anda telah dikeluarkan dari program afiliasi."
+        },
+        {
+            "label": "renew_your_plan",
+            "translation": "Perbarui Rencana Anda"
+        },
+        {
+            "label": "reply",
+            "translation": "Membalas"
+        },
+        {
+            "label": "reply_to",
+            "translation": "Membalas ke"
+        },
+        {
+            "label": "report",
+            "translation": "Laporkan"
+        },
+        {
+            "label": "report_bank_transfer",
+            "translation": "Laporkan Transfer Bank"
+        },
+        {
+            "label": "report_comment",
+            "translation": "Laporkan Komentar"
+        },
+        {
+            "label": "report_review",
+            "translation": "Tinjauan Laporan"
+        },
+        {
+            "label": "report_this_product",
+            "translation": "Laporkan produk ini"
+        },
+        {
+            "label": "report_this_seller",
+            "translation": "Laporkan penjual ini"
+        },
+        {
+            "label": "report_type",
+            "translation": "Jenis Laporan"
+        },
+        {
+            "label": "reported_content",
+            "translation": "Konten yang Dilaporkan"
+        },
+        {
+            "label": "request_a_quote",
+            "translation": "Minta Penawaran"
+        },
+        {
+            "label": "request_documents_vendors",
+            "translation": "Minta Dokumen dari Vendor untuk Membuka Toko"
+        },
+        {
+            "label": "required",
+            "translation": "Diperlukan"
+        },
+        {
+            "label": "required_files",
+            "translation": "File yang Diperlukan"
+        },
+        {
+            "label": "resend_activation_email",
+            "translation": "Kirim Ulang Email Aktivasi"
+        },
+        {
+            "label": "reset",
+            "translation": "Setel ulang"
+        },
+        {
+            "label": "reset_cache",
+            "translation": "Setel Ulang Tembolok"
+        },
+        {
+            "label": "reset_filters",
+            "translation": "Setel Ulang Filter"
+        },
+        {
+            "label": "reset_location",
+            "translation": "Atur Ulang Lokasi"
+        },
+        {
+            "label": "reset_password",
+            "translation": "Atur Ulang Kata Sandi"
+        },
+        {
+            "label": "reset_password_subtitle",
+            "translation": "Masukkan alamat email Anda"
+        },
+        {
+            "label": "responded",
+            "translation": "Menanggapi"
+        },
+        {
+            "label": "restore",
+            "translation": "Pulihkan"
+        },
+        {
+            "label": "return_to_cart",
+            "translation": "Kembali ke troli"
+        },
+        {
+            "label": "review",
+            "translation": "Ulasan"
+        },
+        {
+            "label": "reviews",
+            "translation": "Ulasan"
+        },
+        {
+            "label": "right",
+            "translation": "Benar"
+        },
+        {
+            "label": "right_to_left",
+            "translation": "Kanan ke Kiri (RTL)"
+        },
+        {
+            "label": "role",
+            "translation": "Peran"
+        },
+        {
+            "label": "role_name",
+            "translation": "Nama Peran"
+        },
+        {
+            "label": "roles",
+            "translation": "Peran"
+        },
+        {
+            "label": "roles_permissions",
+            "translation": "Peran & Izin"
+        },
+        {
+            "label": "round_boxes",
+            "translation": "Kotak Bulat"
+        },
+        {
+            "label": "route_settings",
+            "translation": "Pengaturan Rute"
+        },
+        {
+            "label": "route_settings_warning",
+            "translation": "Anda tidak dapat menggunakan karakter khusus dalam rute. Jika bahasa Anda mengandung karakter khusus, harap berhati-hati saat mengedit rute. Jika Anda memasukkan rute yang tidak valid, Anda tidak akan dapat mengakses halaman terkait."
+        },
+        {
+            "label": "rss_feeds",
+            "translation": "Umpan RSS"
+        },
+        {
+            "label": "rss_system",
+            "translation": "Sistem RSS"
+        },
+        {
+            "label": "sale",
+            "translation": "Penjualan"
+        },
+        {
+            "label": "sale_id",
+            "translation": "ID Penjualan"
+        },
+        {
+            "label": "sales",
+            "translation": "Penjualan"
+        },
+        {
+            "label": "sales_number",
+            "translation": "Penjualan"
+        },
+        {
+            "label": "sandbox",
+            "translation": "kotak pasir"
+        },
+        {
+            "label": "saturday",
+            "translation": "Sabtu"
+        },
+        {
+            "label": "save_and_continue",
+            "translation": "Simpan dan Lanjutkan"
+        },
+        {
+            "label": "save_as_draft",
+            "translation": "Simpan sebagai Draf"
+        },
+        {
+            "label": "save_changes",
+            "translation": "Simpan Perubahan"
+        },
+        {
+            "label": "search",
+            "translation": "Cari"
+        },
+        {
+            "label": "search_by_location",
+            "translation": "Cari berdasarkan Lokasi"
+        },
+        {
+            "label": "search_products_categories_brands",
+            "translation": "Cari produk, kategori, atau merek"
+        },
+        {
+            "label": "search_results",
+            "translation": "Hasil Pencarian"
+        },
+        {
+            "label": "searching",
+            "translation": "Mencari..."
+        },
+        {
+            "label": "secret_key",
+            "translation": "Kunci Rahasia"
+        },
+        {
+            "label": "secure_key",
+            "translation": "Kunci Aman"
+        },
+        {
+            "label": "see_details",
+            "translation": "Lihat Detail"
+        },
+        {
+            "label": "see_more",
+            "translation": "Lihat selengkapnya"
+        },
+        {
+            "label": "see_order_details",
+            "translation": "Lihat Detail Pesanan"
+        },
+        {
+            "label": "see_products",
+            "translation": "Lihat Produk"
+        },
+        {
+            "label": "select",
+            "translation": "Pilih"
+        },
+        {
+            "label": "select_action",
+            "translation": "Pilih Tindakan"
+        },
+        {
+            "label": "select_ad_space",
+            "translation": "Pilih Ruang Iklan"
+        },
+        {
+            "label": "select_all",
+            "translation": "Pilih Semua"
+        },
+        {
+            "label": "select_category",
+            "translation": "Pilih Kategori"
+        },
+        {
+            "label": "select_chat_start_messaging",
+            "translation": "Pilih obrolan untuk mulai mengirim pesan"
+        },
+        {
+            "label": "select_country",
+            "translation": "Pilih Negara"
+        },
+        {
+            "label": "select_favicon",
+            "translation": "Pilih Favicon"
+        },
+        {
+            "label": "select_file",
+            "translation": "Pilih File"
+        },
+        {
+            "label": "select_for_coupon",
+            "translation": "Pilih untuk Kupon"
+        },
+        {
+            "label": "select_image",
+            "translation": "Pilih Gambar"
+        },
+        {
+            "label": "select_language",
+            "translation": "Pilih Bahasa"
+        },
+        {
+            "label": "select_location",
+            "translation": "Pilih Lokasi"
+        },
+        {
+            "label": "select_logo",
+            "translation": "Pilih Logo"
+        },
+        {
+            "label": "select_option",
+            "translation": "Pilih sebuah opsi"
+        },
+        {
+            "label": "select_payment_option",
+            "translation": "Pilih Opsi Pembayaran"
+        },
+        {
+            "label": "select_products",
+            "translation": "Pilih Produk"
+        },
+        {
+            "label": "select_region",
+            "translation": "Pilih Wilayah"
+        },
+        {
+            "label": "select_your_location",
+            "translation": "Pilih Lokasi Anda"
+        },
+        {
+            "label": "select_your_plan",
+            "translation": "Pilih Paket Anda"
+        },
+        {
+            "label": "select_your_plan_exp",
+            "translation": "Pilih paket keanggotaan Anda untuk melanjutkan"
+        },
+        {
+            "label": "selected_images",
+            "translation": "Gambar yang Dipilih"
+        },
+        {
+            "label": "sell_my_product_on_site",
+            "translation": "Jual produk di situs"
+        },
+        {
+            "label": "sell_now",
+            "translation": "Jual Sekarang"
+        },
+        {
+            "label": "seller",
+            "translation": "Penjual"
+        },
+        {
+            "label": "seller_balances",
+            "translation": "Saldo Penjual"
+        },
+        {
+            "label": "seller_does_not_ship_to_address",
+            "translation": "Penjual ini tidak mengirim ke alamat yang Anda pilih. Anda dapat melanjutkan dengan menghapus produk penjual ini dari keranjang Anda."
+        },
+        {
+            "label": "sellers_bid",
+            "translation": "Tawaran Penjual"
+        },
+        {
+            "label": "selling_license_keys",
+            "translation": "Menjual Kunci Lisensi"
+        },
+        {
+            "label": "selling_on_the_site",
+            "translation": "Menjual di Situs"
+        },
+        {
+            "label": "send",
+            "translation": "Kirim"
+        },
+        {
+            "label": "send_email",
+            "translation": "Kirim Email"
+        },
+        {
+            "label": "send_email_to_buyer",
+            "translation": "Kirim Email ke Pembeli"
+        },
+        {
+            "label": "send_message",
+            "translation": "Kirim Pesan"
+        },
+        {
+            "label": "send_test_email",
+            "translation": "Kirim Email Uji"
+        },
+        {
+            "label": "send_test_email_exp",
+            "translation": "Anda dapat mengirim email percobaan untuk memeriksa apakah server email Anda berfungsi."
+        },
+        {
+            "label": "sender",
+            "translation": "Pengirim"
+        },
+        {
+            "label": "sender_email_address",
+            "translation": "Alamat Email Pengirim"
+        },
+        {
+            "label": "sent_by",
+            "translation": "Dikirim Oleh"
+        },
+        {
+            "label": "seo",
+            "translation": "seo"
+        },
+        {
+            "label": "seo_metadata",
+            "translation": "SEO & Metadata"
+        },
+        {
+            "label": "seo_tools",
+            "translation": "Alat SEO"
+        },
+        {
+            "label": "september",
+            "translation": "September"
+        },
+        {
+            "label": "server_key",
+            "translation": "Kunci Server"
+        },
+        {
+            "label": "server_response",
+            "translation": "Respon Server"
+        },
+        {
+            "label": "set_as_default",
+            "translation": "Tetapkan sebagai Default"
+        },
+        {
+            "label": "set_fixed_vat_rate_all_countries",
+            "translation": "Tetapkan Tarif PPN Tetap untuk Semua Negara"
+        },
+        {
+            "label": "set_payout_account",
+            "translation": "Tetapkan Akun Pembayaran"
+        },
+        {
+            "label": "settings",
+            "translation": "Pengaturan"
+        },
+        {
+            "label": "settings_language",
+            "translation": "Pengaturan Bahasa"
+        },
+        {
+            "label": "share",
+            "translation": "Bagikan"
+        },
+        {
+            "label": "shipped",
+            "translation": "Dikirim"
+        },
+        {
+            "label": "shipped_product",
+            "translation": "Produk yang Dikirim"
+        },
+        {
+            "label": "shipping",
+            "translation": "Pengiriman"
+        },
+        {
+            "label": "shipping_address",
+            "translation": "Alamat Pengiriman"
+        },
+        {
+            "label": "shipping_by_per_item",
+            "translation": "Harga Tetap Per Item"
+        },
+        {
+            "label": "shipping_by_per_order",
+            "translation": "Harga Tetap Per Pesanan"
+        },
+        {
+            "label": "shipping_by_total_weight",
+            "translation": "Hitung berdasarkan Berat Total"
+        },
+        {
+            "label": "shipping_calculation_type",
+            "translation": "Jenis Perhitungan Pengiriman"
+        },
+        {
+            "label": "shipping_cost",
+            "translation": "Biaya Pengiriman"
+        },
+        {
+            "label": "shipping_cost_calculation_exp",
+            "translation": "Biaya ini akan diterapkan berdasarkan pilihan Anda (per pesanan atau per item)."
+        },
+        {
+            "label": "shipping_delivery_times",
+            "translation": "Pengiriman Waktu Pengiriman"
+        },
+        {
+            "label": "shipping_delivery_times_exp",
+            "translation": "Anda dapat menambahkan waktu pengiriman pengiriman dari sini (Misalnya: Siap dikirim dalam 1 Hari Kerja)"
+        },
+        {
+            "label": "shipping_information",
+            "translation": "Informasi Pengiriman"
+        },
+        {
+            "label": "shipping_location",
+            "translation": "Pengiriman & Lokasi"
+        },
+        {
+            "label": "shipping_method",
+            "translation": "Metode Pengiriman"
+        },
+        {
+            "label": "shipping_method_exp",
+            "translation": "Untuk menggunakan zona pengiriman ini, Anda perlu menambahkan setidaknya satu metode pengiriman"
+        },
+        {
+            "label": "shipping_methods",
+            "translation": "Metode Pengiriman"
+        },
+        {
+            "label": "shipping_settings",
+            "translation": "Pengaturan Pengiriman"
+        },
+        {
+            "label": "shipping_time",
+            "translation": "Waktu Pengiriman"
+        },
+        {
+            "label": "shipping_zones",
+            "translation": "Zona Pelayaran "
+        },
+        {
+            "label": "shop",
+            "translation": "Berbelanja"
+        },
+        {
+            "label": "shop_by_brand",
+            "translation": "Belanja Berdasarkan Merek"
+        },
+        {
+            "label": "shop_by_category",
+            "translation": "Belanja Berdasarkan Kategori"
+        },
+        {
+            "label": "shop_description",
+            "translation": "Deskripsi Toko"
+        },
+        {
+            "label": "shop_id",
+            "translation": "ID Toko"
+        },
+        {
+            "label": "shop_location",
+            "translation": "Lokasi Toko"
+        },
+        {
+            "label": "shop_name",
+            "translation": "Nama Toko"
+        },
+        {
+            "label": "shop_now",
+            "translation": "Belanja Sekarang"
+        },
+        {
+            "label": "shop_opening_request",
+            "translation": "Permintaan Pembukaan Toko"
+        },
+        {
+            "label": "shop_opening_request_emails",
+            "translation": "Email permintaan pembukaan toko"
+        },
+        {
+            "label": "shop_opening_requests",
+            "translation": "Permintaan Pembukaan Toko"
+        },
+        {
+            "label": "shop_policies",
+            "translation": "Kebijakan Toko"
+        },
+        {
+            "label": "shop_settings",
+            "translation": "Pengaturan Toko"
+        },
+        {
+            "label": "shopping_cart",
+            "translation": "Keranjang Belanja"
+        },
+        {
+            "label": "short",
+            "translation": "Pendek"
+        },
+        {
+            "label": "short_description",
+            "translation": "Deskripsi Singkat"
+        },
+        {
+            "label": "short_form",
+            "translation": "Bentuk Pendek"
+        },
+        {
+            "label": "show",
+            "translation": "Tunjukkan"
+        },
+        {
+            "label": "show_all",
+            "translation": "Tampilkan Semua"
+        },
+        {
+            "label": "show_breadcrumb",
+            "translation": "Tampilkan Remah Roti"
+        },
+        {
+            "label": "show_category_image_on_menu",
+            "translation": "Tampilkan Gambar Kategori pada Menu"
+        },
+        {
+            "label": "show_cookies_warning",
+            "translation": "Tampilkan Peringatan Cookie"
+        },
+        {
+            "label": "show_customer_email_seller",
+            "translation": "Tampilkan Email Pelanggan ke Penjual"
+        },
+        {
+            "label": "show_customer_phone_number_seller",
+            "translation": "Tunjukkan Nomor Telepon Pelanggan kepada Penjual"
+        },
+        {
+            "label": "show_description_category_page",
+            "translation": "Tampilkan Deskripsi di Halaman Kategori"
+        },
+        {
+            "label": "show_featured_products_first_search",
+            "translation": "Tampilkan Produk Unggulan Pertama di Hasil Pencarian"
+        },
+        {
+            "label": "show_first_search_lists",
+            "translation": "Tampilkan pertama dalam daftar pencarian"
+        },
+        {
+            "label": "show_image_on_main_menu",
+            "translation": "Tampilkan Gambar di Menu Utama"
+        },
+        {
+            "label": "show_image_on_navigation",
+            "translation": "Tampilkan Gambar Kategori pada Navigasi"
+        },
+        {
+            "label": "show_my_email",
+            "translation": "Tunjukkan alamat email saya"
+        },
+        {
+            "label": "show_my_location",
+            "translation": "Tunjukkan lokasi saya"
+        },
+        {
+            "label": "show_my_phone",
+            "translation": "Tunjukkan nomor telepon saya"
+        },
+        {
+            "label": "show_number_sales_profile",
+            "translation": "Tampilkan Jumlah Penjualan di Profil"
+        },
+        {
+            "label": "show_on_main_menu",
+            "translation": "Tampilkan di Menu Utama"
+        },
+        {
+            "label": "show_on_slider",
+            "translation": "Tampilkan di Penggeser"
+        },
+        {
+            "label": "show_previous_products",
+            "translation": "Tampilkan Produk Sebelumnya"
+        },
+        {
+            "label": "show_reason",
+            "translation": "Tunjukkan Alasan"
+        },
+        {
+            "label": "show_right_column",
+            "translation": "Tampilkan Kolom Kanan"
+        },
+        {
+            "label": "show_sold_products_on_site",
+            "translation": "Tampilkan Produk Terjual di Situs"
+        },
+        {
+            "label": "show_subcategory_products",
+            "translation": "Tampilkan produk subkategori"
+        },
+        {
+            "label": "show_title",
+            "translation": "Tampilkan Judul"
+        },
+        {
+            "label": "show_under_these_categories",
+            "translation": "Bidang khusus akan ditampilkan di bawah kategori ini"
+        },
+        {
+            "label": "show_vendor_contact_info_guests",
+            "translation": "Tampilkan Informasi Kontak Vendor kepada Tamu"
+        },
+        {
+            "label": "show_vendor_contact_information",
+            "translation": "Tampilkan Informasi Kontak Vendor di Situs"
+        },
+        {
+            "label": "show_whatsapp_button",
+            "translation": "Tampilkan Tombol WhatsApp"
+        },
+        {
+            "label": "show_whatsapp_button_exp",
+            "translation": "Izinkan pelanggan menghubungi Anda melalui WhatsApp dari halaman produk Anda."
+        },
+        {
+            "label": "single_country_mode",
+            "translation": "Mode Negara Tunggal"
+        },
+        {
+            "label": "single_select",
+            "translation": "Pilih Tunggal"
+        },
+        {
+            "label": "site_description",
+            "translation": "Deskripsi Situs"
+        },
+        {
+            "label": "site_font",
+            "translation": "Font Situs"
+        },
+        {
+            "label": "site_key",
+            "translation": "Kunci Situs"
+        },
+        {
+            "label": "site_title",
+            "translation": "Judul Situs"
+        },
+        {
+            "label": "sitemap",
+            "translation": "Peta Situs"
+        },
+        {
+            "label": "skip",
+            "translation": "Lewati"
+        },
+        {
+            "label": "sku",
+            "translation": "SKU"
+        },
+        {
+            "label": "slide",
+            "translation": "Geser"
+        },
+        {
+            "label": "slider",
+            "translation": "Penggeser"
+        },
+        {
+            "label": "slider_items",
+            "translation": "Item Penggeser"
+        },
+        {
+            "label": "slider_settings",
+            "translation": "Pengaturan Penggeser"
+        },
+        {
+            "label": "slug",
+            "translation": "Siput"
+        },
+        {
+            "label": "slug_exp",
+            "translation": "Jika Anda membiarkannya kosong, itu akan dibuat secara otomatis."
+        },
+        {
+            "label": "smtp",
+            "translation": "SMTP"
+        },
+        {
+            "label": "social_login",
+            "translation": "Masuk Sosial"
+        },
+        {
+            "label": "social_media",
+            "translation": "Media Sosial"
+        },
+        {
+            "label": "social_media_settings",
+            "translation": "Pengaturan Media Sosial"
+        },
+        {
+            "label": "sold",
+            "translation": "Terjual"
+        },
+        {
+            "label": "sold_products",
+            "translation": "Produk Terjual"
+        },
+        {
+            "label": "sort_categories",
+            "translation": "Urutkan Kategori"
+        },
+        {
+            "label": "sort_options",
+            "translation": "Opsi Sortir"
+        },
+        {
+            "label": "sort_parent_categories_by_category_order",
+            "translation": "Urutkan Kategori Induk berdasarkan Urutan Kategori"
+        },
+        {
+            "label": "special_offer",
+            "translation": "Penawaran Khusus"
+        },
+        {
+            "label": "special_offers",
+            "translation": "Penawaran Khusus"
+        },
+        {
+            "label": "start",
+            "translation": "Mulai"
+        },
+        {
+            "label": "start_selling",
+            "translation": "Mulai Menjual"
+        },
+        {
+            "label": "start_selling_exp",
+            "translation": "Untuk menjual produk Anda, Anda harus menjadi anggota terverifikasi. Verifikasi adalah proses satu kali. Proses verifikasi ini diperlukan karena spammer dan penipuan."
+        },
+        {
+            "label": "state",
+            "translation": "Negara"
+        },
+        {
+            "label": "states",
+            "translation": "Amerika"
+        },
+        {
+            "label": "static_cache_system",
+            "translation": "Sistem Cache Statis"
+        },
+        {
+            "label": "static_cache_system_exp",
+            "translation": "Meskipun sistem cache digunakan untuk produk yang lebih sering diperbarui, cache statis diterapkan pada catatan yang tidak sering berubah (seperti kategori, bidang khusus, pengaturan, dll.). Jika ada perubahan yang terjadi pada catatan ini, file cache secara otomatis di-refresh."
+        },
+        {
+            "label": "static_content_cache",
+            "translation": "Cache Konten Statis"
+        },
+        {
+            "label": "status",
+            "translation": "Status"
+        },
+        {
+            "label": "still_have_questions",
+            "translation": "Masih ada pertanyaan?"
+        },
+        {
+            "label": "still_have_questions_exp",
+            "translation": "Jika Anda masih memiliki pertanyaan, Anda dapat mengirimkan permintaan dukungan di sini."
+        },
+        {
+            "label": "stock",
+            "translation": "Stok"
+        },
+        {
+            "label": "storage",
+            "translation": "Penyimpanan"
+        },
+        {
+            "label": "storage_settings",
+            "translation": "Pengaturan Penyimpanan"
+        },
+        {
+            "label": "store_name",
+            "translation": "Nama Toko"
+        },
+        {
+            "label": "stripe",
+            "translation": "garis"
+        },
+        {
+            "label": "stripe_checkout",
+            "translation": "Pembayaran Garis"
+        },
+        {
+            "label": "stripe_payment_for",
+            "translation": "Promosikan pembayaran untuk"
+        },
+        {
+            "label": "subcategory",
+            "translation": "Subkategori"
+        },
+        {
+            "label": "subject",
+            "translation": "Subyek"
+        },
+        {
+            "label": "submit",
+            "translation": "Kirim"
+        },
+        {
+            "label": "submit_a_new_quote",
+            "translation": "Kirim Penawaran Baru"
+        },
+        {
+            "label": "submit_a_quote",
+            "translation": "Kirimkan Penawaran"
+        },
+        {
+            "label": "submit_a_request",
+            "translation": "Kirim Permintaan"
+        },
+        {
+            "label": "submit_refund_request",
+            "translation": "Kirim Permintaan Pengembalian Dana"
+        },
+        {
+            "label": "subscribe",
+            "translation": "Berlangganan"
+        },
+        {
+            "label": "subscribers",
+            "translation": "Pelanggan"
+        },
+        {
+            "label": "subtotal",
+            "translation": "Subtotal"
+        },
+        {
+            "label": "succeeded",
+            "translation": "Berhasil"
+        },
+        {
+            "label": "summary",
+            "translation": "Ringkasan"
+        },
+        {
+            "label": "sunday",
+            "translation": "Minggu"
+        },
+        {
+            "label": "support_system_emails",
+            "translation": "Email sistem pendukung"
+        },
+        {
+            "label": "support_ticket",
+            "translation": "Tiket"
+        },
+        {
+            "label": "support_tickets",
+            "translation": "Tiket Dukungan"
+        },
+        {
+            "label": "supported_currencies",
+            "translation": "Mata Uang yang Didukung"
+        },
+        {
+            "label": "swatch_color",
+            "translation": "Contoh - Warna"
+        },
+        {
+            "label": "swatch_image",
+            "translation": "Contoh - Gambar"
+        },
+        {
+            "label": "swift",
+            "translation": "CEPAT"
+        },
+        {
+            "label": "swift_code",
+            "translation": "Kode SWIFT"
+        },
+        {
+            "label": "swift_iban",
+            "translation": "Nomor Rekening Bank/IBAN"
+        },
+        {
+            "label": "system",
+            "translation": "Sistem"
+        },
+        {
+            "label": "tag",
+            "translation": "Menandai"
+        },
+        {
+            "label": "tags",
+            "translation": "Tag"
+        },
+        {
+            "label": "tags_product_exp",
+            "translation": "Tambahkan kata kunci yang relevan untuk produk Anda untuk meningkatkan visibilitas dalam hasil pencarian"
+        },
+        {
+            "label": "tax_name",
+            "translation": "Nama Pajak"
+        },
+        {
+            "label": "tax_rate",
+            "translation": "Tarif Pajak"
+        },
+        {
+            "label": "tax_registration_number",
+            "translation": "Nomor Pokok Wajib Pajak"
+        },
+        {
+            "label": "tax_settings",
+            "translation": "Pengaturan Pajak"
+        },
+        {
+            "label": "telegram_url",
+            "translation": "URL Telegram"
+        },
+        {
+            "label": "tell_us_about_shop",
+            "translation": "Beritahu Kami Tentang Toko Anda"
+        },
+        {
+            "label": "terms_conditions_exp",
+            "translation": "Saya telah membaca dan menyetujuinya"
+        },
+        {
+            "label": "text",
+            "translation": "Teks"
+        },
+        {
+            "label": "text_alignment",
+            "translation": "Perataan Teks"
+        },
+        {
+            "label": "text_color",
+            "translation": "Warna Teks"
+        },
+        {
+            "label": "text_direction",
+            "translation": "Arah Teks"
+        },
+        {
+            "label": "text_editor_language",
+            "translation": "Bahasa Editor Teks"
+        },
+        {
+            "label": "text_input",
+            "translation": "Masukan Teks"
+        },
+        {
+            "label": "textarea",
+            "translation": "Area teks"
+        },
+        {
+            "label": "the_operation_completed",
+            "translation": "Operasi selesai dengan sukses!"
+        },
+        {
+            "label": "theme",
+            "translation": "Tema"
+        },
+        {
+            "label": "there_is_shop_opening_request",
+            "translation": "Ada permintaan pembukaan toko baru."
+        },
+        {
+            "label": "thursday",
+            "translation": "Kamis"
+        },
+        {
+            "label": "ticket",
+            "translation": "Tiket"
+        },
+        {
+            "label": "tiktok_url",
+            "translation": "URL Tiktok"
+        },
+        {
+            "label": "time_limit_for_plan",
+            "translation": "Batasan waktu untuk rencana tersebut"
+        },
+        {
+            "label": "timezone",
+            "translation": "Zona waktu"
+        },
+        {
+            "label": "title",
+            "translation": "Judul"
+        },
+        {
+            "label": "to",
+            "translation": "Kepada:"
+        },
+        {
+            "label": "token",
+            "translation": "Tanda"
+        },
+        {
+            "label": "tone_academic",
+            "translation": "Akademik"
+        },
+        {
+            "label": "tone_casual",
+            "translation": "Santai"
+        },
+        {
+            "label": "tone_critical",
+            "translation": "Kritis"
+        },
+        {
+            "label": "tone_formal",
+            "translation": "Resmi"
+        },
+        {
+            "label": "tone_humorous",
+            "translation": "Lucu"
+        },
+        {
+            "label": "tone_inspirational",
+            "translation": "Inspiratif"
+        },
+        {
+            "label": "tone_neutral",
+            "translation": "Netral"
+        },
+        {
+            "label": "tone_persuasive",
+            "translation": "Persuasif"
+        },
+        {
+            "label": "tone_professional",
+            "translation": "Profesional"
+        },
+        {
+            "label": "tone_style",
+            "translation": "Nada/Gaya"
+        },
+        {
+            "label": "too_many_attempts",
+            "translation": "Terlalu banyak upaya login. Silakan coba lagi setelah 5 menit."
+        },
+        {
+            "label": "top",
+            "translation": "Atas"
+        },
+        {
+            "label": "top_menu",
+            "translation": "Menu Teratas"
+        },
+        {
+            "label": "topic",
+            "translation": "Topik"
+        },
+        {
+            "label": "topic_ai_exp",
+            "translation": "Jelaskan secara singkat isi artikel yang Anda inginkan."
+        },
+        {
+            "label": "topic_ai_placeholder",
+            "translation": "Misalnya. Tas kulit buatan tangan atau fashion ramah lingkungan..."
+        },
+        {
+            "label": "total",
+            "translation": "Jumlah"
+        },
+        {
+            "label": "total_amount",
+            "translation": "Jumlah Total:"
+        },
+        {
+            "label": "tracking_code",
+            "translation": "Kode Pelacakan"
+        },
+        {
+            "label": "tracking_url",
+            "translation": "URL Pelacakan"
+        },
+        {
+            "label": "transaction_fee",
+            "translation": "Biaya Transaksi"
+        },
+        {
+            "label": "transaction_fee_exp",
+            "translation": "Jika Anda tidak ingin membebankan biaya transaksi, ketik 0"
+        },
+        {
+            "label": "transaction_number",
+            "translation": "Nomor Transaksi"
+        },
+        {
+            "label": "transactions",
+            "translation": "Transaksi"
+        },
+        {
+            "label": "translation",
+            "translation": "Terjemahan"
+        },
+        {
+            "label": "tuesday",
+            "translation": "Selasa"
+        },
+        {
+            "label": "twitch_url",
+            "translation": "URL Kedutan"
+        },
+        {
+            "label": "twitter_url",
+            "translation": "URL X (Twitter)."
+        },
+        {
+            "label": "type",
+            "translation": "Ketik"
+        },
+        {
+            "label": "type_extension",
+            "translation": "Ketik ekstensi dan tekan enter "
+        },
+        {
+            "label": "type_tag",
+            "translation": "Ketik tag dan tekan enter"
+        },
+        {
+            "label": "unconfirmed",
+            "translation": "Belum dikonfirmasi"
+        },
+        {
+            "label": "unfollow",
+            "translation": "Berhenti mengikuti"
+        },
+        {
+            "label": "unit_price",
+            "translation": "Harga Satuan"
+        },
+        {
+            "label": "unlimited",
+            "translation": "Tidak terbatas"
+        },
+        {
+            "label": "unlimited_stock",
+            "translation": "Stok Tidak Terbatas"
+        },
+        {
+            "label": "unsubscribe",
+            "translation": "Berhenti berlangganan"
+        },
+        {
+            "label": "unsubscribe_successful",
+            "translation": "Berhenti Berlangganan Berhasil!"
+        },
+        {
+            "label": "update_category",
+            "translation": "Perbarui Kategori"
+        },
+        {
+            "label": "update_city",
+            "translation": "Perbarui Kota"
+        },
+        {
+            "label": "update_country",
+            "translation": "Perbarui Negara"
+        },
+        {
+            "label": "update_currency",
+            "translation": "Perbarui Mata Uang"
+        },
+        {
+            "label": "update_custom_field",
+            "translation": "Perbarui Bidang Kustom"
+        },
+        {
+            "label": "update_exchange_rates",
+            "translation": "Perbarui Nilai Tukar"
+        },
+        {
+            "label": "update_font",
+            "translation": "Perbarui Font"
+        },
+        {
+            "label": "update_language",
+            "translation": "Perbarui Bahasa"
+        },
+        {
+            "label": "update_order_status",
+            "translation": "Perbarui Status Pesanan"
+        },
+        {
+            "label": "update_page",
+            "translation": "Halaman Pembaruan"
+        },
+        {
+            "label": "update_post",
+            "translation": "Perbarui Posting"
+        },
+        {
+            "label": "update_product",
+            "translation": "Perbarui Produk"
+        },
+        {
+            "label": "update_profile",
+            "translation": "Perbarui Profil"
+        },
+        {
+            "label": "update_quote",
+            "translation": "Perbarui Kutipan"
+        },
+        {
+            "label": "update_seller_balance",
+            "translation": "Perbarui Saldo Penjual"
+        },
+        {
+            "label": "update_slider_item",
+            "translation": "Perbarui Item Penggeser"
+        },
+        {
+            "label": "update_state",
+            "translation": "Perbarui Status"
+        },
+        {
+            "label": "updated",
+            "translation": "Diperbarui"
+        },
+        {
+            "label": "upload",
+            "translation": "Unggah"
+        },
+        {
+            "label": "upload_file",
+            "translation": "Unggah Berkas"
+        },
+        {
+            "label": "upload_your_banner",
+            "translation": "Unggah Spanduk Anda"
+        },
+        {
+            "label": "uploaded",
+            "translation": "Diunggah"
+        },
+        {
+            "label": "uploading",
+            "translation": "Mengunggah..."
+        },
+        {
+            "label": "url",
+            "translation": "URL"
+        },
+        {
+            "label": "use_content",
+            "translation": "Gunakan Konten"
+        },
+        {
+            "label": "use_default_payment_account",
+            "translation": "Gunakan sebagai akun pembayaran default"
+        },
+        {
+            "label": "use_same_address_for_billing",
+            "translation": "Gunakan alamat yang sama untuk alamat penagihan"
+        },
+        {
+            "label": "use_this_date",
+            "translation": "Gunakan Tanggal Ini"
+        },
+        {
+            "label": "used",
+            "translation": "Digunakan"
+        },
+        {
+            "label": "user",
+            "translation": "Pengguna"
+        },
+        {
+            "label": "user_agent",
+            "translation": "Agen Pengguna"
+        },
+        {
+            "label": "user_details",
+            "translation": "Detail Pengguna"
+        },
+        {
+            "label": "user_id",
+            "translation": "ID Pengguna"
+        },
+        {
+            "label": "user_login_activities",
+            "translation": "Aktivitas Login Pengguna"
+        },
+        {
+            "label": "user_reviews",
+            "translation": "Ulasan Pengguna"
+        },
+        {
+            "label": "username",
+            "translation": "Nama pengguna"
+        },
+        {
+            "label": "users",
+            "translation": "Pengguna"
+        },
+        {
+            "label": "vacation_message",
+            "translation": "Pesan Liburan"
+        },
+        {
+            "label": "vacation_mode",
+            "translation": "Modus Liburan"
+        },
+        {
+            "label": "value",
+            "translation": "Nilai"
+        },
+        {
+            "label": "variant_name",
+            "translation": "Nama Varian"
+        },
+        {
+            "label": "variants",
+            "translation": "Varian"
+        },
+        {
+            "label": "vat",
+            "translation": "PPN"
+        },
+        {
+            "label": "vat_exp",
+            "translation": "Pajak Pertambahan Nilai"
+        },
+        {
+            "label": "vat_vendor_dashboard_exp",
+            "translation": "Tentukan nilai PPN untuk produk Anda berdasarkan negara"
+        },
+        {
+            "label": "vat_vendor_exp",
+            "translation": "Izinkan vendor menambahkan PPN untuk produk mereka"
+        },
+        {
+            "label": "vendor",
+            "translation": "Penjual"
+        },
+        {
+            "label": "vendor_bulk_product_upload",
+            "translation": "Unggah Produk Massal Vendor"
+        },
+        {
+            "label": "vendor_no_shipping_option_warning",
+            "translation": "Jika Anda ingin menjual produk fisik, Anda harus menambahkan opsi pengiriman sebelum menambahkan produk. Silakan buka bagian ini dan tambahkan opsi pengiriman Anda:"
+        },
+        {
+            "label": "vendor_on_vacation",
+            "translation": "Penjual sedang berlibur"
+        },
+        {
+            "label": "vendor_on_vacation_exp",
+            "translation": "Vendor ini sedang berlibur dan tidak tersedia untuk memproses pesanan atau menanggapi pesan."
+        },
+        {
+            "label": "vendor_on_vacation_vendor_exp",
+            "translation": "Mode liburan memungkinkan Anda menjeda toko Anda selama jangka waktu tertentu"
+        },
+        {
+            "label": "vendor_vat_rates_exp",
+            "translation": "Tarif PPN yang Anda tetapkan untuk suatu negara akan berlaku untuk semua negara bagian di negara tersebut. Namun, jika Anda ingin suatu negara bagian memiliki tarif pajak uniknya sendiri, Anda dapat menentukan tarif PPN yang berbeda untuk negara bagian tersebut."
+        },
+        {
+            "label": "vendor_verification_system",
+            "translation": "Sistem Verifikasi Vendor"
+        },
+        {
+            "label": "vendor_verification_system_exp",
+            "translation": "Nonaktifkan jika Anda ingin mengizinkan semua pengguna menambahkan produk."
+        },
+        {
+            "label": "vendors",
+            "translation": "Vendor"
+        },
+        {
+            "label": "vertical_alignment",
+            "translation": "Penjajaran Vertikal"
+        },
+        {
+            "label": "very_long",
+            "translation": "Sangat Panjang"
+        },
+        {
+            "label": "very_short",
+            "translation": "Sangat singkat"
+        },
+        {
+            "label": "video",
+            "translation": "Video"
+        },
+        {
+            "label": "video_preview",
+            "translation": "Pratinjau Video"
+        },
+        {
+            "label": "video_preview_exp",
+            "translation": "Video pratinjau MP4 atau WEBM"
+        },
+        {
+            "label": "view_all",
+            "translation": "Lihat Semua"
+        },
+        {
+            "label": "view_cart",
+            "translation": "Lihat Keranjang"
+        },
+        {
+            "label": "view_content",
+            "translation": "Lihat Konten"
+        },
+        {
+            "label": "view_details",
+            "translation": "Lihat Detail"
+        },
+        {
+            "label": "view_invoice",
+            "translation": "Lihat Faktur"
+        },
+        {
+            "label": "view_license_keys",
+            "translation": "Lihat Kunci Lisensi"
+        },
+        {
+            "label": "view_options",
+            "translation": "Lihat Opsi"
+        },
+        {
+            "label": "view_pdf_file",
+            "translation": "Lihat Berkas PDF"
+        },
+        {
+            "label": "view_product",
+            "translation": "Lihat Produk"
+        },
+        {
+            "label": "view_site",
+            "translation": "Lihat Situs"
+        },
+        {
+            "label": "visibility",
+            "translation": "Visibilitas"
+        },
+        {
+            "label": "visible",
+            "translation": "Terlihat"
+        },
+        {
+            "label": "visual_settings",
+            "translation": "Pengaturan Visual"
+        },
+        {
+            "label": "vk_login",
+            "translation": "Masuk VKontakte"
+        },
+        {
+            "label": "vk_url",
+            "translation": "URL VK"
+        },
+        {
+            "label": "waiting",
+            "translation": "Menunggu..."
+        },
+        {
+            "label": "wallet",
+            "translation": "Dompet"
+        },
+        {
+            "label": "wallet_balance",
+            "translation": "Saldo Dompet"
+        },
+        {
+            "label": "wallet_deposit",
+            "translation": "Setoran Dompet"
+        },
+        {
+            "label": "wallet_deposits",
+            "translation": "Setoran Dompet"
+        },
+        {
+            "label": "warning",
+            "translation": "Peringatan"
+        },
+        {
+            "label": "warning_add_order_tracking_code",
+            "translation": "Anda dapat menambahkan kode pelacakan pesanan dan tautan saat mengubah status pesanan."
+        },
+        {
+            "label": "warning_cannot_choose_plan",
+            "translation": "Anda tidak dapat memilih paket ini karena jumlah produk yang Anda tambahkan"
+        },
+        {
+            "label": "warning_category_sort",
+            "translation": "Penyortiran dengan drag and drop hanya akan aktif jika opsi \"berdasarkan Urutan Kategori\" dipilih."
+        },
+        {
+            "label": "warning_custom_field_category",
+            "translation": "Bidang khusus yang dipilih akan secara otomatis diterapkan ke semua subkategori dari kategori yang dipilih. Oleh karena itu, tidak perlu memilih subkategori satu per satu."
+        },
+        {
+            "label": "warning_edit_profile_image",
+            "translation": "Klik tombol simpan perubahan setelah memilih gambar Anda"
+        },
+        {
+            "label": "warning_external_download_link",
+            "translation": "Demi alasan keamanan, disarankan untuk mengunggah file digital daripada menambahkan tautan unduhan eksternal"
+        },
+        {
+            "label": "warning_membership_admin_role",
+            "translation": "Peran admin tidak memerlukan paket keanggotaan."
+        },
+        {
+            "label": "warning_plan_used",
+            "translation": "Rencana ini telah digunakan sebelumnya"
+        },
+        {
+            "label": "warning_product_main_image",
+            "translation": "Anda dapat mengklik tombol \"Utama\" pada gambar untuk memilih gambar utama produk Anda"
+        },
+        {
+            "label": "watermark",
+            "translation": "Tanda air"
+        },
+        {
+            "label": "watermark_image",
+            "translation": "Gambar Tanda Air"
+        },
+        {
+            "label": "watermark_text",
+            "translation": "Teks Tanda Air"
+        },
+        {
+            "label": "webhook_secret",
+            "translation": "Rahasia Webhook"
+        },
+        {
+            "label": "wednesday",
+            "translation": "Rabu"
+        },
+        {
+            "label": "weekly",
+            "translation": "Mingguan"
+        },
+        {
+            "label": "weight",
+            "translation": "Berat"
+        },
+        {
+            "label": "whatsapp",
+            "translation": "Ada apa"
+        },
+        {
+            "label": "whatsapp_number",
+            "translation": "Nomor WhatsApp"
+        },
+        {
+            "label": "whatsapp_url",
+            "translation": "URL WhatsApp"
+        },
+        {
+            "label": "where_to_display",
+            "translation": "Tempat Ditampilkan"
+        },
+        {
+            "label": "width",
+            "translation": "Lebar"
+        },
+        {
+            "label": "wishlist",
+            "translation": "Daftar Keinginan"
+        },
+        {
+            "label": "withdraw_amount",
+            "translation": "Jumlah Penarikan"
+        },
+        {
+            "label": "withdraw_method",
+            "translation": "Metode Penarikan"
+        },
+        {
+            "label": "withdraw_money",
+            "translation": "Tarik Uang"
+        },
+        {
+            "label": "write_a_message",
+            "translation": "Tulis pesan..."
+        },
+        {
+            "label": "write_review",
+            "translation": "Tulis Ulasan..."
+        },
+        {
+            "label": "wrong_password",
+            "translation": "Kata sandi salah!"
+        },
+        {
+            "label": "year_ago",
+            "translation": "tahun yang lalu"
+        },
+        {
+            "label": "years_ago",
+            "translation": "tahun yang lalu"
+        },
+        {
+            "label": "yes",
+            "translation": "Ya"
+        },
+        {
+            "label": "yoomoney",
+            "translation": "YooMoney"
+        },
+        {
+            "label": "you_have_new_message",
+            "translation": "Anda mendapat pesan baru"
+        },
+        {
+            "label": "you_have_new_order",
+            "translation": "Anda memiliki pesanan baru"
+        },
+        {
+            "label": "you_have_new_quote_request",
+            "translation": "Anda memiliki permintaan penawaran harga baru."
+        },
+        {
+            "label": "you_have_no_debt",
+            "translation": "Anda tidak punya hutang."
+        },
+        {
+            "label": "you_may_also_like",
+            "translation": "Anda mungkin juga menyukainya"
+        },
+        {
+            "label": "you_will_earn",
+            "translation": "Anda Akan Menghasilkan"
+        },
+        {
+            "label": "your_balance",
+            "translation": "Saldo Anda"
+        },
+        {
+            "label": "your_cart_is_empty",
+            "translation": "Keranjang Anda kosong!"
+        },
+        {
+            "label": "your_order_shipped",
+            "translation": "Pesanan Anda telah dikirimkan"
+        },
+        {
+            "label": "your_quote_accepted",
+            "translation": "Penawaran Anda telah diterima."
+        },
+        {
+            "label": "your_quote_rejected",
+            "translation": "Penawaran Anda telah ditolak."
+        },
+        {
+            "label": "your_quote_request_replied",
+            "translation": "Permintaan penawaran Anda telah dijawab."
+        },
+        {
+            "label": "your_rating",
+            "translation": "Peringkat Anda:"
+        },
+        {
+            "label": "your_shop_opening_request_approved",
+            "translation": "Permintaan pembukaan toko Anda telah disetujui. Anda dapat mengunjungi situs kami dan mulai menjual barang Anda!"
+        },
+        {
+            "label": "youtube_url",
+            "translation": "URL Youtube"
+        },
+        {
+            "label": "zip_code",
+            "translation": "Kode Pos"
+        },
+        {
+            "label": "zone_name",
+            "translation": "Nama Zona"
+        }
+    ]
+}
