@@ -7,8 +7,8 @@ $items = [
         'icon'  => 'shield'
     ],
     [
-        'title' => $isId ? 'Pengiriman Cepat' : 'Fast Shipping',
-        'desc'  => $isId ? 'Ke seluruh Indonesia' : 'Across Indonesia',
+        'title' => $isId ? 'Pengiriman' : 'Shipping',
+        'desc'  => $isId ? 'Pengiriman ke seluruh dunia' : 'Worldwide shipping',
         'icon'  => 'box'
     ],
     [
