@@ -5,3 +5,4 @@ Version 2.7
 By Codingest
 
 https://codecanyon.net/item/modesy-buy-sell-used-stuff/22714108
+# Auto-sync active
