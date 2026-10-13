@@ -491,6 +491,53 @@ class ProductAdminModel extends BaseModel
         }
     }
 
+
+    //bulk action products
+    public function bulkActionProducts($productIds, $action)
+    {
+        if (empty($productIds) || !is_array($productIds) || empty($action)) {
+            return false;
+        }
+
+        foreach ($productIds as $id) {
+            $id = clrNum($id);
+            switch ($action) {
+                case 'approve':
+                    $this->approveProduct($id);
+                    break;
+                case 'set_visible':
+                    $this->builder->where('id', $id)->update(['visibility' => 1, 'updated_at' => date('Y-m-d H:i:s')]);
+                    break;
+                case 'set_hidden':
+                    $this->builder->where('id', $id)->update(['visibility' => 0, 'updated_at' => date('Y-m-d H:i:s')]);
+                    break;
+                case 'add_featured':
+                    $this->addToFeaturedProducts($id, 30, 0);
+                    break;
+                case 'remove_featured':
+                    $this->removeFromFeaturedProducts($id);
+                    break;
+                case 'add_special_offer':
+                    $this->builder->where('id', $id)->update(['is_special_offer' => 1, 'special_offer_date' => date('Y-m-d H:i:s'), 'updated_at' => date('Y-m-d H:i:s')]);
+                    break;
+                case 'remove_special_offer':
+                    $this->builder->where('id', $id)->update(['is_special_offer' => 0, 'special_offer_date' => null, 'updated_at' => date('Y-m-d H:i:s')]);
+                    break;
+                case 'restore':
+                    $this->restoreProduct($id);
+                    break;
+                case 'delete':
+                    $this->deleteProduct($id);
+                    break;
+                case 'delete_permanently':
+                    $this->deleteProductPermanently($id);
+                    break;
+            }
+        }
+
+        return true;
+    }
+
     //restore product
     public function restoreProduct($productId)
     {

@@ -233,6 +233,25 @@ class ProductController extends BaseAdminController
         return jsonResponse();
     }
 
+
+    /**
+     * Bulk Action Products Post
+     */
+    public function bulkActionProductsPost()
+    {
+        checkPermission('products');
+        $productIds = inputPost('product_ids');
+        $action = inputPost('action');
+        if (!empty($productIds) && !empty($action)) {
+            $this->productAdminModel->bulkActionProducts($productIds, $action);
+            resetCacheDataOnChange();
+            setSuccessMessage(trans("msg_updated"));
+        } else {
+            setErrorMessage(trans("msg_error"));
+        }
+        return jsonResponse();
+    }
+
     /**
      * Add Remove Featured Product
      */

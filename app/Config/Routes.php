@@ -617,6 +617,7 @@ $postArray = [
     'Product/approveProduct',
     'Product/deleteSelectedProducts',
     'Product/deleteSelectedProductsPermanently',
+    'Product/bulkActionProductsPost',
     'Product/addRemoveSpecialOffer',
     'Product/restoreProduct',
     'Product/deleteSelectedReviews',
