@@ -213,7 +213,9 @@ endif; ?>
 $('#modal_newsletter').modal('show');
 });</script>
 <?php endif; ?>
+<?php if (!isLocalhost()): ?>
 <?= $generalSettings->google_analytics; ?>
+<?php endif; ?>
 <?= $generalSettings->custom_footer_codes; ?>
 </body>
 </html>

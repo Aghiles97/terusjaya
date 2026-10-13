@@ -2404,3 +2404,21 @@ if (!function_exists('getTranslatedUrl')) {
         return null;
     }
 }
+
+if (!function_exists('isLocalhost')) {
+    function isLocalhost(): bool
+    {
+        $host = $_SERVER['HTTP_HOST'] ?? parse_url(base_url(), PHP_URL_HOST) ?? '';
+        $host = strtolower(trim(explode(':', $host)[0]));
+        if (empty($host) || in_array($host, ['localhost', '127.0.0.1', '::1'])) {
+            return true;
+        }
+        if (preg_match('/(\.local|\.test)$/i', $host)) {
+            return true;
+        }
+        if (filter_var($host, FILTER_VALIDATE_IP) && filter_var($host, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE) === false) {
+            return true;
+        }
+        return false;
+    }
+}
