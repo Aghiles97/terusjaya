@@ -2337,13 +2337,218 @@ class AdminController extends BaseAdminController
                 }
                 $zip->close();
                 if (file_exists($zipPath)) {
-                    $response = \Config\Services::response();
-                    $fileContent = file_get_contents($zipPath);
+                    header('Content-Type: application/zip');
+                    header('Content-Disposition: attachment; filename="' . $zipFileName . '"');
+                    header('Content-Length: ' . filesize($zipPath));
+                    header('Pragma: no-cache');
+                    header('Expires: 0');
+                    while (ob_get_level() > 0) {
+                        ob_end_clean();
+                    }
+                    readfile($zipPath);
                     @unlink($zipPath);
-                    return $response->download($zipFileName, $fileContent);
+                    exit;
                 }
             }
         }
         return redirect()->to(adminUrl());
+    }
+
+    public function restoreFullBackupPost()
+    {
+        if (!isSuperAdmin()) {
+            return redirect()->to(adminUrl());
+        }
+        $file = $this->request->getFile('backup_file');
+        if (!$file || !$file->isValid()) {
+            setErrorMessage("Please select a valid backup file.");
+            return redirect()->back();
+        }
+        $ext = strtolower($file->getClientExtension());
+        if ($ext !== 'zip' && $ext !== 'sql') {
+            setErrorMessage("Invalid file format. Please upload a .zip or .sql file.");
+            return redirect()->back();
+        }
+
+        @ini_set('max_execution_time', '0');
+        @ini_set('memory_limit', '1024M');
+
+        $sqlTempFile = null;
+        $isTempSql = false;
+
+        if ($ext === 'sql') {
+            $sqlTempFile = $file->getTempName();
+        } else if ($ext === 'zip') {
+            $zip = new \ZipArchive();
+            if ($zip->open($file->getTempName()) !== true) {
+                setErrorMessage("Unable to open the backup zip file.");
+                return redirect()->back();
+            }
+
+            for ($i = 0; $i < $zip->numFiles; $i++) {
+                $entryName = $zip->getNameIndex($i);
+                if (strpos($entryName, '..') !== false || strpos($entryName, '__MACOSX') !== false || strpos(basename($entryName), '._') === 0 || basename($entryName)[0] === '.') {
+                    continue;
+                }
+                if (basename($entryName) === 'database.sql' || (empty($sqlTempFile) && strtolower(pathinfo($entryName, PATHINFO_EXTENSION)) === 'sql')) {
+                    $sqlTempFile = tempnam(sys_get_temp_dir(), 'sql_restore_');
+                    $isTempSql = true;
+                    $s = $zip->getStream($entryName);
+                    if ($s) {
+                        $d = fopen($sqlTempFile, 'wb');
+                        stream_copy_to_stream($s, $d);
+                        fclose($s);
+                        fclose($d);
+                    }
+                    continue;
+                }
+                $uploadsPos = strpos($entryName, 'uploads/');
+                if ($uploadsPos !== false) {
+                    $destPath = FCPATH . substr($entryName, $uploadsPos);
+                    if (substr($entryName, -1) === '/') {
+                        if (!is_dir($destPath)) {
+                            @mkdir($destPath, 0755, true);
+                        }
+                    } else {
+                        $parentDir = dirname($destPath);
+                        if (!is_dir($parentDir)) {
+                            @mkdir($parentDir, 0755, true);
+                        }
+                        $stream = $zip->getStream($entryName);
+                        if ($stream) {
+                            $target = fopen($destPath, 'wb');
+                            if ($target) {
+                                stream_copy_to_stream($stream, $target);
+                                fclose($target);
+                            }
+                            fclose($stream);
+                        }
+                    }
+                }
+            }
+            $zip->close();
+        }
+
+        $currentAdminUser = user();
+        $adminEmail = !empty($currentAdminUser) ? $currentAdminUser->email : null;
+        $adminId = !empty($currentAdminUser) ? $currentAdminUser->id : null;
+        $sessionAuthToken = $this->session->get('auth_token');
+
+        if (!empty($sqlTempFile) && file_exists($sqlTempFile) && filesize($sqlTempFile) > 0) {
+            try {
+                $db = \Config\Database::connect();
+                $mysqli = $db->connID;
+                if ($mysqli instanceof \mysqli) {
+                    $mysqli->query("SET NAMES 'utf8mb4'");
+                    $mysqli->query("SET FOREIGN_KEY_CHECKS = 0");
+                    $mysqli->query("SET autocommit = 0");
+                    $mysqli->query("SET SQL_MODE = ''");
+
+                    $fp = fopen($sqlTempFile, 'r');
+                    $batch = '';
+                    $batchSize = 0;
+                    $skipSessionBlock = false;
+                    while (($line = fgets($fp)) !== false) {
+                        $trimmed = trim($line);
+                        if ($trimmed === '' || $trimmed[0] === '#' || (isset($trimmed[1]) && $trimmed[0] === '-' && $trimmed[1] === '-')) {
+                            continue;
+                        }
+                        if ($skipSessionBlock) {
+                            if (substr($trimmed, -1) === ';') {
+                                $skipSessionBlock = false;
+                            }
+                            continue;
+                        }
+                        if (preg_match('/^(DROP\s+TABLE|CREATE\s+TABLE|INSERT\s+INTO|ALTER\s+TABLE|TRUNCATE\s+TABLE)\s+.*[`]?ci_sessions[`]?/i', $trimmed)) {
+                            if (substr($trimmed, -1) !== ';') {
+                                $skipSessionBlock = true;
+                            }
+                            continue;
+                        }
+                        $batch .= $line;
+                        $batchSize += strlen($line);
+                        if (substr($trimmed, -1) === ';') {
+                            if ($batchSize > 250000) {
+                                if ($mysqli->multi_query($batch)) {
+                                    do {
+                                        if ($res = $mysqli->store_result()) {
+                                            $res->free();
+                                        }
+                                    } while ($mysqli->more_results() && $mysqli->next_result());
+                                }
+                                $batch = '';
+                                $batchSize = 0;
+                            }
+                        }
+                    }
+                    if (!empty(trim($batch))) {
+                        if ($mysqli->multi_query($batch)) {
+                            do {
+                                if ($res = $mysqli->store_result()) {
+                                    $res->free();
+                                }
+                            } while ($mysqli->more_results() && $mysqli->next_result());
+                        }
+                    }
+                    $mysqli->commit();
+                    $mysqli->query("SET autocommit = 1");
+                    $mysqli->query("SET FOREIGN_KEY_CHECKS = 1");
+                    fclose($fp);
+
+                    $mysqli->query("CREATE TABLE IF NOT EXISTS `ci_sessions` (
+                        `id` varchar(128) NOT NULL,
+                        `ip_address` varchar(45) NOT NULL,
+                        `timestamp` timestamp NOT NULL DEFAULT current_timestamp(),
+                        `data` blob NOT NULL,
+                        KEY `ci_sessions_timestamp` (`timestamp`),
+                        KEY `ci_sessions_id` (`id`)
+                    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci");
+
+                    $restoredUser = null;
+                    if (!empty($adminEmail)) {
+                        $res = $mysqli->query("SELECT * FROM users WHERE email = '" . $mysqli->real_escape_string($adminEmail) . "' LIMIT 1");
+                        if ($res && ($row = $res->fetch_object())) {
+                            $restoredUser = $row;
+                        }
+                    }
+                    if (empty($restoredUser) && !empty($adminId)) {
+                        $res = $mysqli->query("SELECT * FROM users WHERE id = " . (int)$adminId . " LIMIT 1");
+                        if ($res && ($row = $res->fetch_object())) {
+                            $restoredUser = $row;
+                        }
+                    }
+                    if (empty($restoredUser)) {
+                        $res = $mysqli->query("SELECT * FROM users WHERE role_id = 1 LIMIT 1");
+                        if ($res && ($row = $res->fetch_object())) {
+                            $restoredUser = $row;
+                        }
+                    }
+
+                    if (!empty($restoredUser)) {
+                        $token = !empty($sessionAuthToken) ? $sessionAuthToken : (!empty($restoredUser->token) ? $restoredUser->token : generateToken());
+                        $mysqli->query("UPDATE users SET token = '" . $mysqli->real_escape_string($token) . "', banned = 0 WHERE id = " . (int)$restoredUser->id);
+                        $this->session->set([
+                            'auth_user_id' => $restoredUser->id,
+                            'auth_token'   => $token,
+                        ]);
+                    }
+                }
+            } catch (\Throwable $e) {
+                log_message('error', 'Restore SQL error: ' . $e->getMessage());
+                if ($isTempSql) {
+                    @unlink($sqlTempFile);
+                }
+                setErrorMessage("Database restore error: " . $e->getMessage());
+                return redirect()->back();
+            }
+
+            if ($isTempSql) {
+                @unlink($sqlTempFile);
+            }
+        }
+
+        resetCacheData();
+        setSuccessMessage("Backup restored successfully!");
+        return redirect()->back();
     }
 }

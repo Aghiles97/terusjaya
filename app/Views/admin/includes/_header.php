@@ -407,6 +407,7 @@
                                 <?= csrf_field(); ?>
                                 <button type="submit" class="btn btn-block btn-success" style="background-color: #28a745; color: #fff; border: none;"><i class="fa fa-file-archive-o"></i>&nbsp;&nbsp;Backup + Assets (.zip)</button>
                             </form>
+                            <button type="button" class="btn btn-block btn-warning" data-toggle="modal" data-target="#restoreBackupModal" style="margin-top: 6px; background-color: #f39c12; color: #fff; border: none;"><i class="fa fa-upload"></i>&nbsp;&nbsp;Restore Backup (.zip)</button>
                         </div>
                     </li>
                 <?php endif; ?>
@@ -414,6 +415,34 @@
             </ul>
         </section>
     </aside>
+    <?php if (isSuperAdmin()): ?>
+        <div id="restoreBackupModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form action="<?= base_url('Admin/restoreFullBackupPost'); ?>" method="post" enctype="multipart/form-data">
+                        <?= csrf_field(); ?>
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title"><i class="fa fa-upload"></i>&nbsp;&nbsp;Restore Backup (DB + Assets)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="alert alert-danger" style="margin-bottom: 15px;">
+                                <i class="fa fa-exclamation-triangle"></i>&nbsp;<strong>Warning:</strong> Restoring will overwrite existing database records and replace assets in the <code>uploads/</code> directory.
+                            </div>
+                            <div class="form-group">
+                                <label>Select Backup File (.zip):</label>
+                                <input type="file" name="backup_file" class="form-control" accept=".zip,.sql" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default pull-left" data-dismiss="modal"><?= trans("close"); ?></button>
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to restore this backup? Current data will be replaced.');"><i class="fa fa-refresh"></i>&nbsp;&nbsp;Restore Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <?php endif; ?>
     <?php
     $segment2 = $segment = getSegmentValue(2);
     $segment3 = $segment = getSegmentValue(3);

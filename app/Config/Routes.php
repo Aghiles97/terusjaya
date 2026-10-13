@@ -351,6 +351,7 @@ $postArray = [
     'Admin/setActiveLanguagePost',
     'Admin/downloadDatabaseBackup',
     'Admin/downloadFullBackup',
+    'Admin/restoreFullBackupPost',
     'Admin/addCityPost',
     'Admin/addCountryPost',
     'Admin/addStatePost',

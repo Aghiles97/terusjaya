@@ -897,7 +897,7 @@ class SettingsModel extends BaseModel
     {
         $prefs = array(
             'tables'             => array(),
-            'ignore'             => array(),
+            'ignore'             => array('ci_sessions'),
             'filename'           => '',
             'format'             => 'gzip', // gzip, zip, txt
             'add_drop'           => TRUE,
